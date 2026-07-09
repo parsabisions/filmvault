@@ -63,9 +63,9 @@ def url_exists(url, timeout=8):
     try:
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "FilmVault/2.0"})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.status < 400
+            return 200 <= resp.status < 400
     except urllib.error.HTTPError as e:
-        return e.code < 500
+        return False
     except:
         return False
 

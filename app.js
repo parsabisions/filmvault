@@ -289,6 +289,7 @@ function openPlayer(globalIdx, specificUrl) {
   // Populate subtitle selector
   playerSubs.innerHTML = '<option value="">No subtitles</option>';
   var subLinks = film.links.filter(function (l) { return lnkType(l) === 'subtitle'; });
+  playerSubs.style.display = subLinks.length > 0 ? '' : 'none';
   subLinks.forEach(function (link, i) {
     var url = lnkUrl(link);
     var fn = url.split('/').pop();
