@@ -46,3 +46,1321 @@
 [2026-07-09T21:40:18] Catalog saved: 23805 films (8.7MB)
 [2026-07-09T21:40:18] New films added this run: 6
 [2026-07-09T21:40:18] ============================================================
+[2026-07-09T22:19:57] ============================================================
+[2026-07-09T22:19:57] FilmVault Incremental Scraper — Starting
+[2026-07-09T22:19:57] ============================================================
+[2026-07-09T22:19:57] State: last_post_id=0, runs=0
+[2026-07-09T22:19:57] Catalog: 23770 films
+[2026-07-09T22:19:57]   Page 1 (fetched 0/5000)...
+[2026-07-09T22:20:40] ============================================================
+[2026-07-09T22:20:40] FilmVault Incremental Scraper — Starting
+[2026-07-09T22:20:40] ============================================================
+[2026-07-09T22:20:40] State: last_post_id=0, runs=0
+[2026-07-09T22:20:40] Catalog: 23770 films
+[2026-07-09T22:20:40]   Page 1 (fetched 0/5000)...
+[2026-07-09T22:20:43] Result: 0 new, 0 cleaned, 23770 total (8.7MB)
+[2026-07-09T22:20:43] Last post ID: 246319
+[2026-07-09T22:20:43] ============================================================
+[2026-07-09T22:28:05] ============================================================
+[2026-07-09T22:28:05] FilmVault Incremental Scraper — Starting
+[2026-07-09T22:28:05] ============================================================
+[2026-07-09T22:28:05] State: last_post_id=0, runs=0
+[2026-07-09T22:28:05] Catalog: 23770 films
+[2026-07-09T22:28:05]   Page 1 (fetched 0/5000)...
+[2026-07-09T22:28:07] Result: 0 new, 0 cleaned, 23770 total (8.7MB)
+[2026-07-09T22:28:07] Last post ID: 246319
+[2026-07-09T22:28:07] ============================================================
+[2026-07-09T22:29:38] ============================================================
+[2026-07-09T22:29:38] FilmVault Incremental Scraper — Starting
+[2026-07-09T22:29:38] ============================================================
+[2026-07-09T22:29:38] State: last_post_id=0, runs=0
+[2026-07-09T22:29:38] Catalog: 23770 films
+[2026-07-09T22:29:38]   Page 1 (fetched 0/5000)...
+[2026-07-09T22:29:41]   Page 2 (fetched 100/5000)...
+[2026-07-09T22:29:43]   Page 3 (fetched 200/5000)...
+[2026-07-09T22:29:46]   Page 4 (fetched 300/5000)...
+[2026-07-09T22:29:50]   Page 5 (fetched 400/5000)...
+[2026-07-09T22:29:53]   Page 6 (fetched 500/5000)...
+[2026-07-09T22:29:56]   Page 7 (fetched 600/5000)...
+[2026-07-09T22:29:59]   Page 8 (fetched 700/5000)...
+[2026-07-09T22:30:03]   Page 9 (fetched 800/5000)...
+[2026-07-09T22:30:06]   Page 10 (fetched 900/5000)...
+[2026-07-09T22:30:10]   Page 11 (fetched 1000/5000)...
+[2026-07-09T22:30:13]   Page 12 (fetched 1100/5000)...
+[2026-07-09T22:30:16]   Page 13 (fetched 1200/5000)...
+[2026-07-09T22:30:18]   Page 14 (fetched 1300/5000)...
+[2026-07-09T22:30:20]   Page 15 (fetched 1400/5000)...
+[2026-07-09T22:30:23]   Page 16 (fetched 1500/5000)...
+[2026-07-09T22:30:25]   Page 17 (fetched 1600/5000)...
+[2026-07-09T22:30:28]   Page 18 (fetched 1700/5000)...
+[2026-07-09T22:30:31]   Page 19 (fetched 1800/5000)...
+[2026-07-09T22:30:33]   Page 20 (fetched 1900/5000)...
+[2026-07-09T22:30:35]   Page 21 (fetched 2000/5000)...
+[2026-07-09T22:30:38]   Page 22 (fetched 2100/5000)...
+[2026-07-09T22:30:40]   Page 23 (fetched 2200/5000)...
+[2026-07-09T22:30:43]   Page 24 (fetched 2300/5000)...
+[2026-07-09T22:30:45]   Page 25 (fetched 2400/5000)...
+[2026-07-09T22:30:48]   Page 26 (fetched 2500/5000)...
+[2026-07-09T22:30:51]   Page 27 (fetched 2600/5000)...
+[2026-07-09T22:30:53]   Page 28 (fetched 2700/5000)...
+[2026-07-09T22:30:56]   Page 29 (fetched 2800/5000)...
+[2026-07-09T22:30:58]   Page 30 (fetched 2900/5000)...
+[2026-07-09T22:31:01]   Page 31 (fetched 3000/5000)...
+[2026-07-09T22:31:03]   Page 32 (fetched 3100/5000)...
+[2026-07-09T22:31:06]   Page 33 (fetched 3200/5000)...
+[2026-07-09T22:31:09]   Page 34 (fetched 3300/5000)...
+[2026-07-09T22:31:12]   Page 35 (fetched 3400/5000)...
+[2026-07-09T22:31:15]   Page 36 (fetched 3500/5000)...
+[2026-07-09T22:31:18]   Page 37 (fetched 3600/5000)...
+[2026-07-09T22:31:21]   Page 38 (fetched 3700/5000)...
+[2026-07-09T22:31:25]   Page 39 (fetched 3800/5000)...
+[2026-07-09T22:31:29]   Page 40 (fetched 3900/5000)...
+[2026-07-09T22:31:31]   Page 41 (fetched 4000/5000)...
+[2026-07-09T22:31:33]   Page 42 (fetched 4100/5000)...
+[2026-07-09T22:31:36]   Page 43 (fetched 4200/5000)...
+[2026-07-09T22:31:38]   Page 44 (fetched 4300/5000)...
+[2026-07-09T22:31:41]   Page 45 (fetched 4400/5000)...
+[2026-07-09T22:31:44]   Page 46 (fetched 4500/5000)...
+[2026-07-09T22:31:47]   Page 47 (fetched 4600/5000)...
+[2026-07-09T22:31:49]   Page 48 (fetched 4700/5000)...
+[2026-07-09T22:31:51]   Page 49 (fetched 4800/5000)...
+[2026-07-09T22:31:54]   Page 50 (fetched 4900/5000)...
+[2026-07-09T22:31:57] Result: 4011 new, 0 cleaned, 27781 total (10.9MB)
+[2026-07-09T22:31:57] Last post ID: 246319
+[2026-07-09T22:31:57] ============================================================
+[2026-07-09T22:32:09] ============================================================
+[2026-07-09T22:32:09] FilmVault Incremental Scraper — Starting
+[2026-07-09T22:32:09] ============================================================
+[2026-07-09T22:32:09] State: last_post_id=246319, runs=1
+[2026-07-09T22:32:10] Catalog: 27781 films
+[2026-07-09T22:32:10]   Page 1 (fetched 0/5000)...
+[2026-07-09T22:32:12] Result: 0 new, 0 cleaned, 27781 total (10.9MB)
+[2026-07-09T22:32:12] Last post ID: 246319
+[2026-07-09T22:32:12] ============================================================
+[2026-07-09T22:32:45] [subtitle] Catalog: 27781 films
+[2026-07-09T22:35:11] [sub] Catalog: 27781 films
+[2026-07-09T22:35:11] [sub] With subtitles: 359, without: 24813
+[2026-07-09T22:35:12] [sub]   + Banduan (2025) → Banduan.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:12] [sub]   + Love Barista (2025) → Love.Barista.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:13] [sub]   + Mrithyunjay (2026) → Mrithyunjay.2026.1080p.WEB.DL.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:14] [sub]   + Thalaivar Thambi Thalaimaiyil (2026) → Thalaivar.Thambi.Thalaimaiyil.2026.1080p.WEB.DL.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:14] [sub]   + Salmokji: Whispering Water (2026) → Salmokji.Whispering.Water.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:15] [sub]   + The Demon Disorder (2024) → The.Demon.Disorder.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:16] [sub]   + Bakudan (2025) → Bakudan.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:16] [sub]   + Remarkably Bright Creatures (2026) → Remarkably.Bright.Creatures.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:17] [sub]   + The Last Whale Singer (2026) → The.Last.Whale.Singer.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:18] [sub]   + Ultimate Revenge () → Ultimate.Revenge.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:18] [sub]   + The Gentleman () → The.Gentleman.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:19] [sub]   + Hokum (2026) → Hokum.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:20] [sub]   + Iron Lung (2026) → Iron.Lung.2026.1080p.WEB.DL.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:20] [sub]   + Tatsama Tadbhava () → Tatsama.Tadbhava.2023.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:21] [sub]   + Finding Harry: The Craft Behind the Magic (2026) → Finding.Harry.The.Craft.Behind.The.Magic.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:22] [sub]   + An Enemy Within () → An.Enemy.Within.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:23] [sub]   + Kaamelott: The Second Chapter  (2025) → Kaamelott.The.Second.Chapter.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:23] [sub]   + Last Train to Fortune (2025) → Last.Train.To.Fortune.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:24] [sub]   + Made in Korea () → Made.In.Korea.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:24] [sub]   + Son Of (2026) → Son.Of.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:25] [sub]   + Winterset () → Winterset.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:26] [sub]   + Cheekatilo (2026) → Cheekatilo.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:26] [sub]   + Biker (2026) → Biker.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:27] [sub]   + In the Grey () → In.The.Grey.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:28] [sub]   + The President’s Cake (2025) → The.Presidents.Cake.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:28] [sub]   + Black Rabbit, White Rabbit () → Black.Rabbit.White.Rabbit.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:29] [sub]   + Kartavya (2026) → Kartavya.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:30] [sub]   + Refuge (2026) → Refuge.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:31] [sub]   + The Magic Faraway Tree (2026) → The.Magic.Faraway.Tree.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:31] [sub]   + Tokyo Taxi  (2025) → Tokyo.Taxi.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:32] [sub]   + The Gates (2026) → The.Gates.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:32] [sub]   + You, Me & Tuscany (2026) → You.Me.And.Tuscany.2026.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:33] [sub]   + Beast  (2026) → Beast.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:34] [sub]   + Tom Clancy’s Jack Ryan: Ghost War  (2026) → Tom.Clancys.Jack.Ryan.Ghost.War.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:34] [sub]   + Couture (2025) → Couture.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:35] [sub]   + Scare Out (2026) → Jing.Zhe.Wu.Sheng.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:36] [sub]   + Dhurandhar: The Revenge (2026) → Dhurandhar.The.Revenge.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:37] [sub]   + Swapped (2026) → Swapped.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:37] [sub]   + Kraken (2026) → Kraken.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:38] [sub]   + Lee Cronin’s The Mummy (2026) → Lee.Cronins.The.Mummy.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:38] [sub]   + Our Land (2025) → Our.Land.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:39] [sub]   + Propeller One-Way Night Coach (2026) → Propeller.One.Way.Night.Coach.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:40] [sub]   + Blue Heron (2025) → Blue.Heron.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:40] [sub]   + Pompei: Below the Clouds (2025) → Below.The.Clouds.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:41] [sub]   + Home Behind Bars (2025) → Home.Behind.Bars.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:42] [sub]   + Little Amélie or the Character of Rain (2025) → Little.Amelie.Or.The.Character.Of.Rain.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:42] [sub]   + The Elixir (2025) → The.Elixir.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:43] [sub]   + What We Hide (2025) → What.We.Hide.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:44] [sub]   + Two Prosecutors (2025) → Two.Prosecutors.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:44] [sub]   + Desert Warrior (2025) → Desert.Warrior.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:45] [sub]   + Fuze (2025) → Fuze.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:46] [sub]   + Only God Knows Everything (2025) → Only.God.Knows.Everything.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:46] [sub]   + The King’s Warden (2026) → The.Kings.Warden.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:47] [sub]   + Mother Mary (2026) → Mother.Mary.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:48] [sub]   + No Kids (Heartman: Rock and Love) (2026) → Heartman.Rock.And.Love.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:49] [sub]   + Ladies First  (2026) → Ladies.First.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:49] [sub]   + Gory: A Horror Tale (2026) → The.Cursed.Insatiable.Desires.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:50] [sub]   + The Last One for the Road (2025) → The.Last.One.For.The.Road.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:50] [sub]   + The Shore of Life (2025) → The.Shore.Of.Life.2025.Hc.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:51] [sub]   + Good Luck, Have Fun, Don’t Die (2025) → Good.Luck.Have.Fun.Dont.Die.2025.1080p.Bluray.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:52] [sub]   + Wanted (2009) → Wanted.2009.1080p.Brrip.Aac.Movcr_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:52] [sub]   + Driver’s Ed (2025) → Drivers.Ed.2025.1080.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:53] [sub]   + The Christophers (2025) → The.Christophers.2025.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:54] [sub]   + Normal (2025) → Normal.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:54] [sub]   + The Site (2025) → The.Site.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:55] [sub]   + My Dearest Assassin (2026) → My.Dearest.Assassin.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:56] [sub]   + Faces of Death (2026) → Faces.Of.Death.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:56] [sub]   + Silent Friend (2025) → Silent.Friend.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:57] [sub]   + A Great Awakening (2026) → A.Great.Awakening.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:58] [sub]   + The Ground Beneath Our Feet (2026) → The.Ground.Beneath.Our.Feet.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:58] [sub]   + The Punisher: One Last Kill (2026) → The.Punisher.One.Last.Kill.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:35:59] [sub]   + Project Hail Mary (2026) → Project.Hail.Mary.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:00] [sub]   + The Drama (2026) → The.Drama.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:00] [sub]   + Panda Plan 2: The Magical Tribe (2026) → Panda.Plan.2.The.Magical.Tribe.2026.1080p.Hc.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:01] [sub]   + The Super Mario Galaxy Movie (2026) → The.Super.Mario.Galaxy.Movie.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:02] [sub]   + The Favor (2025) → The.Favor.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:02] [sub]   + The Wizard of the Kremlin (2025) → The.Wizard.Of.The.Kremlin.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:03] [sub]   + Tow (2025) → Tow.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:03] [sub]   + Kill Code (2026) → Kill.Code.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:04] [sub]   + Roommates (2026) → Roommates.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:05] [sub]   + Heel (Good Boy) (2025) → Heel.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:05] [sub]   + Forbidden Fruits () → Forbidden.Fruits.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:06] [sub]   + Hoppers (2026) → Hoppers.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:07] [sub]   + They Will Kill You (2026) → They.Will.Kill.You.2026.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:07] [sub]   + GoodFellas (1990) → Goodfellas.1990.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:08] [sub]   + Outcome  (2026) → Outcome.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:09] [sub]   + Nirvanna the Band the Show the Movie (2025) → Nirvanna.The.Band.The.Show.The.Movie.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:09] [sub]   + Reminders of Him (2026) → Reminders.Of.Him.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:10] [sub]   + One Mile (2026) → One.Mile.Chapter.One.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:10] [sub]   + One Mile: Chapter Two (2026) → One.Mile.Chapter.Two.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:11] [sub]   + Balls Up (2026) → Balls.Up.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:12] [sub]   + Thrash (2026) → Thrash.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:13] [sub]   + Fight Club (1999) → Fight.Club.1999.1080p.Bluray.Mkvcage_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:14] [sub]   + The Oscars (2026) → The.98th.Annual.Academy.Awards.2026.The.Oscars.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:14] [sub]   + The Legend of Aang: The Last Airbender (2026) → The.Legend.Of.Aang.The.Last.Airbender.2026.720p.Webrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:15] [sub]   + Mektoub, My Love: Canto Due (2025) → Mektoub.My.Love.Canto.Due.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:16] [sub]   + How to Shoot a Ghost (2025) → How.To.Shoot.A.Ghost.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:17] [sub]   + Orphan (2025) → Orphan.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:18] [sub]   + Heel (2025) → Heel.2025.720p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:18] [sub]   + Apex (2026) → Apex.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:19] [sub]   + Pleasure (2021) → Pleasure.2021.1080p.Brrip.Aac.Rarbg_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:20] [sub]   + Om Shanti Om (2007) → Om.Shanti.Om.2007.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:21] [sub]   + The Father (2020) → The.Father.2020.1080p.6ch.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:21] [sub]   + Faces of Death (1978) → Faces.Of.Death.1978.1080p.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:22] [sub]   + The Ruse (2025) → The.Ruse.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:23] [sub]   + Song Sung Blue (2025) → Song.Sung.Blue.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:24] [sub]   + Back to the Past (2025) → Back.To.The.Past.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:24] [sub]   + Where to Land (2025) → Where.To.Land.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:25] [sub]   + Merv (2025) → Merv.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:26] [sub]   + Not Without Hope (2025) → Not.Without.Hope.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:27] [sub]   + Momo (2025) → Momo.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:28] [sub]   + Lefter: Bir Ordinaryüs Hikayesi (2025) → Lefter.The.Story.Of.The.Ordinarius.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:29] [sub]   + Gold Rush Gang (2025) → Gold.Rush.Gang.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:30] [sub]   + Dhandoraa (2025) → Dhandoraa.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:30] [sub]   + 10 Days of a Curious Man (2024) → 10.Days.Of.A.Curious.Man.2024.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:31] [sub]   + Resurrection (2025) → Resurrection.2025.720p.WEB.DL.Aac.H.264_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:32] [sub]   + Project Y (2025) → Project.Y.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:33] [sub]   + Arco (2026) → Arco.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:33] [sub]   + In Cold Light (2026) → In.Cold.Light.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:34] [sub]   + Firebreak (2026) → Firebreak.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:35] [sub]   + The Monster (2026) → Twisted.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:36] [sub]   + The Dreadful (2026) → The.Dreadful.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:36] [sub]   + The Bluff (2026) → The.Bluff.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:37] [sub]   + Shelter (2026) → Shelter.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:38] [sub]   + Resurrection Road (2025) → Resurrection.Road.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:39] [sub]   + In Time (2011) → In.Time.2011.720p.BluRay.H264.AAC-RARBG.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:40] [sub]   + Hijacked (2025) → Hijacked.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:40] [sub]   + A Fathers Miracle (2026) → A.Fathers.Miracle.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:41] [sub]   + Turbulence (2025) → Turbulence.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:42] [sub]   + We Bury the Dead (2026) → We.Bury.The.Dead.2024.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:42] [sub]   + Worldbreaker (2025) → Worldbreaker.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:43] [sub]   + Hamnet (2025) → Hamnet.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:44] [sub]   + Return to Silent Hill (2026) → Return.To.Silent.Hill.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:45] [sub]   + Dead Man's Wire (2026) → Dead.Mans.Wire.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:45] [sub]   + Black Blood (2025) → Black.Blood.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:46] [sub]   + This Is I (2026) → This.Is.I.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:47] [sub]   + Chef’s Kiss (2026) → Chefs.Kiss.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:47] [sub]   + Crime 101 (2026) → Crime.101.2026.720p.Telesync.Syncup_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:48] [sub]   + Pabanneu (2026) → Pavane.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:49] [sub]   + Panji Tengkorak (2025) → Panji.Tengkorak.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:50] [sub]   + Frontier Crucible (2025) → Frontier.Crucible.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:50] [sub]   + Timeless Tidings of Joy (2025) → Timeless.Tidings.Of.Joy.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:51] [sub]   + Akhanda 2 (2025) → Akhanda.2.Thaandavam.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:52] [sub]   + Pike River (2025) → Pike.River.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:52] [sub]   + People We Meet on Vacation (2026) → People.We.Meet.On.Vacation.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:53] [sub]   + One Mile: Chapter One (2026) → One.Mile.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:54] [sub]   + East of Wall (2025) → East.Of.Wall.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:55] [sub]   + I’ll Be Right There (2023) → Ill.Be.Right.There.2023.WEB.DL.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:55] [sub]   + I Was a Stranger (2026) → I.Was.A.Stranger.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:56] [sub]   + Marcello Hernandez: American Boy (2026) → American.Boy.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:57] [sub]   + The Haunted Forest (2026) → The.Haunted.Forest.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:58] [sub]   + Tafiti: Across the Desert (2025) → Tafiti.Across.The.Desert.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:58] [sub]   + Champion (2025) → Champion.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:36:59] [sub]   + Dog 51 (2025) → Dog.51.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:00] [sub]   + Night Patrol (2026) → Night.Patrol.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:01] [sub]   + Diabolic (2025) → Diabolic.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:02] [sub]   + Bureau 749 (2024) → Bureau.749.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:02] [sub]   + Kidnapped: Elizabeth Smart (2026) → Kidnapped.Elizabeth.Smart.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:03] [sub]   + Lost Horizon (2025) → Lost.Horizon.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:04] [sub]   + Sirai (2025) → Sirai.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:05] [sub]   + Rajini Gaang (2025) → Rajini.Gaang.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:05] [sub]   + 96 Minutes (2025) → 96.Minutes.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:06] [sub]   + Rebuilding (2025) → Rebuilding.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:07] [sub]   + Mercy (2026) → Mercy.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:08] [sub]   + Love, Brooklyn (2025) → Love.Brooklyn.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:08] [sub]   + Hellfire (2026) → Hellfire.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:09] [sub]   + The Informant (2025) → The.Informant.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:10] [sub]   + The SpongeBob Movie: Search for SquarePants (2025) → The.Spongebob.Movie.Search.For.Squarepants.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:10] [sub]   + Rapide (2025) → Faster.2025.1080p.Webrip.Aac5.1.Yts.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:11] [sub]   + The Hunted (2024) → The.Hunted.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:12] [sub]   + Fabian und die mörderische Hochzeit (2026) → Fabian.Und.Die.Morderische.Hochzeit.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:13] [sub]   + Sukma (2025) → Sukma.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:13] [sub]   + F.Ck Valentines Day (2026) → F.Ck.Valentines.Day.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:14] [sub]   + The Big Fake (2026) → The.Big.Fake.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:15] [sub]   + The Captive (2025) → The.Captive.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:15] [sub]   + Haq (2025) → Haq.2025.1080p.WEB.DL.X265.10bit.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:16] [sub]   + Tidings for the Season (2025) → Tidings.For.The.Season.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:17] [sub]   + Two Worlds, One Wish (2025) → Two.Worlds.One.Wish.2025.1080p.WEBRip.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:37:18] [sub]   + Believe in Christmas (2025) → Believe.In.Christmas.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:19] [sub]   + Christmas at the Catnip Café (2025) → Christmas.At.The.Catnip.Cafe.2025.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:19] [sub]   + Deer Camp '86 (2024) → Deer.Camp.86.2022.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:20] [sub]   + Honey Bunch (2026) → Honey.Bunch.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:21] [sub]   + Redux Redux (2025) → Redux.Redux.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:22] [sub]   + Everything to Me (2024) → Everything.To.Me.2024.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:22] [sub]   + Just Breathe (2025) → Just.Breathe.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:23] [sub]   + Tyler Perry’s Joe’s College Road Trip (2026) → Tyler.Perrys.Joes.College.Road.Trip.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:24] [sub]   + 28 Years Later: The Bone Temple (2026) → 28.Years.Later.The.Bone.Temple.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:24] [sub]   + Blue Cave  (2024) → Blue.Cave.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:25] [sub]   + Eternity (2025) → Eternity.2025.1080p.Bluray.Dd.5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:26] [sub]   + Five Nights at Freddy's 2 (2025) → Five.Nights.At.Freddys.2.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:27] [sub]   + Die My Love (2025) → Die.My.Love.2025.1080p.Bluray.Dd.5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:27] [sub]   + One Last Adventure: The Making of Stranger Things 5 (2026) → One.Last.Adventure.The.Making.Of.Stranger.Things.5.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:28] [sub]   + Suicide Squad (2016) → Suicide.Squad.2016.Extended.1080p.Shaanig_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:29] [sub]   + Ironclad (2011) → Ironclad.2011.1080p.Blu.Ray_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:29] [sub]   + Tina (2024) → Tina.2025.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:30] [sub]   + The Disappearance of Josef Mengele (2025) → The.Disappearance.Of.Josef.Mengele.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:31] [sub]   + La grazia (2026) → La.Grazia.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:32] [sub]   + Misdirection (2026) → Misdirection.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:33] [sub]   + Charlie the Wonderdog (2026) → Charlie.The.Wonderdog.2025.720p.Hdts.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:34] [sub]   + Les enfants rouges (2024) → Red.Path.2024.720p.Nf.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:34] [sub]   Progress: 200/3000 checked, 200 found
+[2026-07-09T22:37:34] [sub]   + Cosmic Princess Kaguya (2026) → Cosmic.Princess.Kaguya.2026.1080p.Nf.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:35] [sub]   + The Omro Heist (2025) → The.Omro.Heist.2025.720p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:36] [sub]   + Speed Faster (2026) → Speed.Faster.2026.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:37] [sub]   + Ella McCay (2025) → Ella.Mccay.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:37] [sub]   + Once Upon My Mother (2025) → Once.Upon.My.Mother.2025.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:38] [sub]   + Rosemead (2025) → Rosemead.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:39] [sub]   + The Muppet Show (2026) → The.Muppet.Show.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:39] [sub]   + Mission: Impossible - The Final Reckoning (2025) → Mission.Impossible.The.Final.Reckoning.2025.Imax.1080p.Bluray.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:40] [sub]   + The Chronology of Water (2025) → The.Chronology.Of.Water.2025.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:40] [sub]   + Six jours (2025) → Six.Jours.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:41] [sub]   + Louise Violet (2024) → Louise.Violet.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:42] [sub]   + Is This Thing On? (2025) → Is.This.Thing.On.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:42] [sub]   + The Housemaid (2025) → The.Housemaid.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:43] [sub]   + Eolgul (2025) → The.Ugly.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:44] [sub]   + Relentless (2026) → Relentless.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:44] [sub]   + Los Muértimer (2025) → The.Mortimers.2025.1080p.Webrip.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:45] [sub]   + Eye for an Eye (2025) → Eye.For.An.Eye.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:46] [sub]   + Siccin 8 (2025) → Siccin.8.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:46] [sub]   + Silent Night, Deadly Night (2025) → Silent.Night.Deadly.Night.2025.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:47] [sub]   + Big Deal (2025) → Big.Deal.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:48] [sub]   + Wild London (2026) → Wild.London.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:48] [sub]   + Jumbo (2025) → Jumbo.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:49] [sub]   + Sawt Hind Rajab (2025) → The.Voice.Of.Hind.Rajab.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:49] [sub]   + Lookout (2025) → Lookout.2025.1080p.WEB.DL.6ch.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:50] [sub]   + Dhurandhar (2025) → Dhurandhar.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:51] [sub]   + Marty Supreme (2025) → Marty.Supreme.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:51] [sub]   + Thieves Highway (2025) → Thieves.Highway.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:52] [sub]   + Obex (2025) → Obex.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:52] [sub]   + Streaming (2025) → Streaming.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:53] [sub]   + Distort (2025) → Distort.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:54] [sub]   + Oneul Bam, Segyeeseo Yi Sarangyi Sarajinda Haedo (2025) → Even.If.This.Love.Disappears.From.The.World.Tonight.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:54] [sub]   + Merrily We Roll Along (2025) → Merrily.We.Roll.Along.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:55] [sub]   + Ken (2025) → Yes.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:55] [sub]   + The Blue Trail (2025) → The.Blue.Trail.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:56] [sub]   + The Plague (2026) → The.Plague.2025.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:57] [sub]   + A Line of Fire (2025) → A.Line.Of.Fire.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:57] [sub]   + Grizzly Night (2026) → Grizzly.Night.2026.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:58] [sub]   + The Forbidden City (2025) → The.Forbidden.City.2025.720p.Bluray.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:58] [sub]   + On Falling (2025) → On.Falling.2024.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:37:59] [sub]   + The New Yorker at 100 (2025) → The.New.Yorker.At.100.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:00] [sub]   + Vecina (2025) → Vecina.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:00] [sub]   + The Dutchman (2026) → The.Dutchman.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:01] [sub]   + The Jane Mysteries: Murder at Moseby (2024) → The.Jane.Mysteries.Murder.At.Moseby.2024.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:02] [sub]   + Avatar: The Way of Water (2022) → Avatar.The.Way.Of.Water.2022.BluRay.720p.BluRay.x264.AAC-YTS.vtt
+[2026-07-09T22:38:02] [sub]   + Pillion (2025) → Pillion.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:03] [sub]   + Marc Maron: Panicked (2025) → Marc.Maron.Panicked.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:03] [sub]   + David (2025) → David.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:04] [sub]   + Sound of Falling (2025) → Sound.Of.Falling.2025.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:05] [sub]   + Little Forest: Winter/Spring (2015) → Little.Forest.Winter.Spring.2015.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:05] [sub]   + The Wrecking Crew (2026) → The.Wrecking.Crew.2026.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:06] [sub]   + Romería (2025) → Romeria.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:07] [sub]   + Peter Hujar's Day (2025) → Peter.Hujars.Day.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:07] [sub]   + Anaconda (2025) → Anaconda.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:08] [sub]   + Zootopia 2 (2025) → Zootopia.2.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:09] [sub]   + The Rip (2026) → The.Rip.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:09] [sub]   + The Secret Agent (2025) → The.Secret.Agent.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:10] [sub]   + Rental Family (2025) → Rental.Family.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:11] [sub]   + Yuki's Revenge (2025) → The.Lost.Chapter.Yukis.Revenge.2025.720p.Webrip.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:11] [sub]   + The Long Game (2024) → The.Long.Game.2024.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:12] [sub]   + Killer Whale (2026) → Killer.Whale.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:13] [sub]   + Dust Bunny (2025) → Dust.Bunny.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:14] [sub]   + Kevin Hart: Acting My Age (2025) → Kevin.Hart.Acting.My.Age.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:15] [sub]   + We Shall Not Be Moved (2024) → We.Shall.Not.Be.Moved.2024.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:15] [sub]   + That Thing You Do! (1996) → That.Thing.You.Do.1996.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:16] [sub]   + Last Bullet (2025) → Last.Bullet.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:17] [sub]   + Balle perdue 2 (2022) → Lost.Bullet.2.Back.For.More.2022.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:18] [sub]   + Balle perdue (2020) → Lost.Bullet.2020.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:18] [sub]   + Kangaroo (2025) → Kangaroo.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:19] [sub]   + Homebound (2025) → Homebound.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:20] [sub]   + Heer Express (2025) → Heer.Express.2025.Hindi.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:21] [sub]   + Harsens Island Revenge (2025) → Harsens.Island.Revenge.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:22] [sub]   + Spiral: From the Book of Saw (2021) → Spiral.2021.1080p.8ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:23] [sub]   + Predator: Badlands (2025) → Predator.Badlands.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:23] [sub]   + Aaryan (2025) → Aaryan.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:24] [sub]   + Raat Akeli Hai: The Bansal Murders (2025) → Raat.Akeli.Hai.The.Bansal.Murders.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:25] [sub]   + Kaantha (2025) → Kaantha.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:25] [sub]   + 120 Bahadur (2025) → 120.Bahadur.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:26] [sub]   + Dollhouse (2025) → Dollhouse.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:27] [sub]   + My Secret Santa (2025) → My.Secret.Santa.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:28] [sub]   + Der Tiger (2025) → The.Tiger.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:29] [sub]   + Blücher (2025) → Blucher.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:30] [sub]   + Stiller & Meara: Nothing Is Lost (2025) → Stiller.And.Meara.Nothing.Is.Lost.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:30] [sub]   + Ricky Gervais: Mortality (2025) → Ricky.Gervais.Mortality.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:31] [sub]   + The War Between (2025) → The.War.Between.2025.1080p.WEB_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:32] [sub]   + Dracula (2025) → Dracula.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:33] [sub]   + Jane Austen a gâché ma vie (2024) → Jane.Austen.Wrecked.My.Life.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:35] [sub]   + Jimmy and Stiggs (2025) → Jimmy.And.Stiggs.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:36] [sub]   + House on Eden (2025) → House.On.Eden.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:37] [sub]   + Raw File (2025) → Raw.File.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:38] [sub]   + Hyakuemu (2025) → 100.Meters.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:38] [sub]   + Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle (2025) → Demon.Slayer.Kimetsu.No.Yaiba.The.Movie.Infinity.Castle.2025.Hc.1080p.WEB.DL.Cassu_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:39] [sub]   + Fackham Hall (2025) → Fackham.Hall.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.mp4?
+[2026-07-09T22:38:40] [sub]   + Wicked: For Good (2025) → Wicked.For.Good.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:41] [sub]   + La hora de los valientes (2025) → A.Time.For.Bravery.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:41] [sub]   + Cover-Up (2025) → Cover.Up.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:42] [sub]   + The Wilderness (2025) → The.Wilderness.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:43] [sub]   + Bugonia (2025) → Bugonia.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:44] [sub]   + The Choral (2025) → The.Choral.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:44] [sub]   + Queens of the Dead (2025) → Queens.Of.The.Dead.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:45] [sub]   + Goodbye June (2025) → Goodbye.June.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:46] [sub]   + Dave Chappelle: The Unstoppable (2025) → Dave.Chappelle.The.Unstoppable.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:46] [sub]   + The First Ride (2025) → The.First.Ride.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:47] [sub]   + 100 Nights of Hero (2025) → 100.Nights.Of.Hero.2025.720p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:48] [sub]   + Dry Leaf (2025) → Dry.Leaf.2025.1080p.Hc.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:49] [sub]   + Rapaces (2025) → Vultures.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:50] [sub]   + The People We Hate at the Wedding (2022) → The.People.We.Hate.At.The.Wedding.2022.1080p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:50] [sub]   + Good Fortune (2025) → Good.Fortune.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:51] [sub]   + Les orphelins (2025) → Les.Orphelins.2025.WEB.DL.480p_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:52] [sub]   + Black Diamond (2025) → Black.Diamond.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:52] [sub]   + Op-pa saeng-gak (2016) → A.Melody.To.Remember.2016.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:53] [sub]   + Den sidste viking (2025) → The.Last.Viking.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:38:54] [sub]   + Gekijô-ban Jujutsu Kaisen Kaigyoku / Gyokusetsu (2025) → Jujutsu.Kaisen.Hidden.Inventory.Premature.Death.The.Movie.2025.1080p.WEB.DL.Aac.Yts.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:07] [sub]   + Nuremberg (2025) → Nuremberg.2025.720p.WEB.DL.Aac.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:07] [sub]   + Springsteen: Deliver Me from Nowhere (2025) → Springsteen.Deliver.Me.From.Nowhere.2025.1080p.WEB.DL.6ch.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:08] [sub]   + Avatar: Fire and Ash (2025) → Avatar.Fire.And.Ash.2025.720p.Telesync_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:09] [sub]   + Chaplin (1992) → Chaplin.1992.1080p.Brrip.Rarbg_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:10] [sub]   + Shiranai Kanojo (2025) → Shiranai.Kanojo.2025.1080p.Bluray.Aac5.1.World_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:11] [sub]   + Eight Below (2006) → Eight.Below.2006.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:11] [sub]   + Dreams (2025) → Dreams.2025.1080p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:12] [sub]   + Detective Kien: The Headless Horror (2025) → Detective.Kien.The.Headless.Horror.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:13] [sub]   + Ty - Kosmos (2025) → U.Are.The.Universe.2024.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:13] [sub]   + Daehongsu (2025) → The.Great.Flood.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:14] [sub]   + Falcon Express (2025) → Pets.On.A.Train.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:15] [sub]   + Posthouse (2025) → Posthouse.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:15] [sub]   + The Thing with Feathers (2025) → The.Thing.With.Feathers.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:16] [sub]   + Land's End (2025) → Lands.End.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:16] [sub]   + Sisu 2 (2025) → Sisu.Road.To.Revenge.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:17] [sub]   + Now You See Me: Now You Don’t (2025) → Now.You.See.Me.Now.You.Dont.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:18] [sub]   + Otec (2025) → Father.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:18] [sub]   + Horror in the High Desert 4: Majesty (2025) → Horror.In.The.High.Desert.4.Majesty.2025.1080p.Amzn.WEB.DL.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:19] [sub]   + Tell Me Softly (2025) → Tell.Me.Softly.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:20] [sub]   + Influencers (2025) → Influencers.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:20] [sub]   + Truth & Treason (2025) → Truth.And.Treason.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:21] [sub]   + Being John Malkovich (1999) → Being.John.Malkovich.1999.Brrip.1080p.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:22] [sub]   + Taylor Swift: The Eras Tour - The Final Show (2025) → Taylor.Swift.The.Eras.Tour.The.Final.Show.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:22] [sub]   + Battle for Sevastopol (2015) → Battle.For.Sevastopol.2015.1080p.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:23] [sub]   + Badh (2025) → Badh.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:23] [sub]   + Champagne Problems (2025) → Champagne.Problems.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:24] [sub]   + Wake Up Dead Man (2025) → Wake.Up.Dead.Man.A.Knives.Out.Mystery.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:25] [sub]   + The Mastermind (2025) → The.Mastermind.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:25] [sub]   + The Running Man (2025) → The.Running.Man.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:26] [sub]   + Inglourious Basterds (2009) → Inglourious.Basterds.2009.1080p.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:27] [sub]   + Furiosa: A Mad Max Saga (2024) → Furiosa.A.Mad.Max.Saga.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:27] [sub]   + Köln 75 (2025) → Koln.75.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:28] [sub]   + Alpha (2025) → Alpha.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:29] [sub]   + Christy (2025) → Christy.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:29] [sub]   + Palestine 36 (2025) → Palestine.36.2025.1080p.Amzn.WEB.DL.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:30] [sub]   + The Wrecker (2025) → The.Wrecker.2025.1080p.WEB.DL.Rgb.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:31] [sub]   + The Carpenter's Son (2025) → The.Carpenters.Son.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:31] [sub]   + Stone Creek Killer (2025) → Stone.Creek.Killer.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:32] [sub]   + Keeper (2025) → Keeper.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:32] [sub]   + Chainsaw Man - The Movie: Reze Arc (2025) → Chainsaw.Man.The.Movie.Reze.Arc.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:34] [sub]   + 2000 Meters to Andriivka (2024) → 2000.Meters.To.Andriivka.2025.1080p.Webrip.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:35] [sub]   + 1978 (2024) → 1978.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:35] [sub]   + Hunting Season (2025) → Hunting.Season.2025.1080p.WEB.DL.Rgb_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:36] [sub]   + Diary of A Wimpy Kid: The Last Straw (2025) → Diary.Of.A.Wimpy.Kid.The.Last.Straw.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:37] [sub]   + Sarah's Oil (2025) → Sarahs.Oil.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:37] [sub]   + All the Empty Rooms (2025) → All.The.Empty.Rooms.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:38] [sub]   + The Wailing (2024) → The.Wailing.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:39] [sub]   + Kill Bill: The Lost Chapter - Yuki's Revenge (2025) → Kill.Bill.The.Lost.Chapter.Yukis.Revenge.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:39] [sub]   + Muzzle: City of Wolves (2025) → Muzzle.City.Of.Wolves.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:40] [sub]   + Jay Kelly (2025) → Jay.Kelly.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:40] [sub]   + Lone Samurai (2025) → Lone.Samurai.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:41] [sub]   + Turn Up the Sun! (2025) → Pose.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:42] [sub]   + Sky Fighters (2005) → Sky.Fighters.2005.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:42] [sub]   + Oh. What. Fun. (2025) → Oh.What.Fun.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:43] [sub]   + The Waiting City (2009) → The.Waiting.City.2009.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:43] [sub]   + Sentimental Value (2025) → Sentimental.Value.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:44] [sub]   + Miroirs No.3 (2025) → Mirrors.No.3.2025.WEB.DL.720p.Psama_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:45] [sub]   + Trap House (2025) → Trap.House.2025.1080p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:45] [sub]   + Affinity (2017) → Affinity.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:46] [sub]   + Troll 2 (2025) → Troll.2.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:46] [sub]   + The Age of Disclosure (2025) → The.Age.Of.Disclosure.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:47] [sub]   + Tron: Ares (2025) → Tron.Ares.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:48] [sub]   + A Dry White Season (1989) → A.Dry.White.Season.1989.1080p.Bluray.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:48] [sub]   + Left-Handed Girl (2025) → Left.Handed.Girl.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:39:49] [sub]   + Jolly LLB 3 (2025) → Jolly.Llb.3.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:39:50] [sub]   + Kingsman: The Golden Circle (2017) → Kingsman.The.Golden.Circle.2017.1080p.6ch.Mkvcage_www.Talafilm.Top.vtt
+[2026-07-09T22:39:50] [sub]   + The Shadow's Edge (2025) → The.Shadows.Edge.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:39:51] [sub]   + Bull Run (2024) → Bull.Run.2024.1080p.WEB.DL.6ch.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:39:51] [sub]   + Breed of Greed (2025) → Breed.Of.Greed.2025.1080p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:39:52] [sub]   + Mr. Skeffington (1944) → Mr.Skeffington.1944.1080p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:39:53] [sub]   + Anaconda (1997) → Anaconda.1997.1080p.Bluray.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:39:53] [sub]   + The Hopeful (2024) → The.Hopeful.2024.720p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:39:54] [sub]   + The Grove (2025) → The.Grove.2025.720p.WEBRIP.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:39:55] [sub]   + Deaf (2025) → Deaf.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:39:55] [sub]   + Melt My Heart This Christmas (2025) → Melt.My.Heart.This.Christmas.2025.720p.WebRip.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:39:56] [sub]   + Air () → Air.2023.1080p.WEBRIP.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:39:57] [sub]   + Wildcat (2025) → Wildcat.2025.1080p.Webrip.Aac.Yts_www.Talafilm.Top.vtt
+[2026-07-09T22:39:57] [sub]   + The Dam (2025) → The.Dam.2025.720p.WEBRIP_www.Talafilm.Top.vtt
+[2026-07-09T22:39:58] [sub]   + The Bad Guys: Little Lies and Alibis (2025) → The.Bad.Guys.Little.Lies.And.Alibis.2025.1080p.Bluray_www.Talafilm.Top.vtt
+[2026-07-09T22:39:58] [sub]   + Jingle Bell Heist (2025) → Jingle.Bell.Heist.2025.720p.WEBRIP_www.Talafilm.Top.vtt
+[2026-07-09T22:39:59] [sub]   + Being Eddie (2025) → Being.Eddie.2025.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:40:00] [sub]   + Blue Moon (2025) → Blue.Moon.2025.1080p.WEB.DL.6ch.Pahe_www.Talafilm.Top.vtt
+[2026-07-09T22:40:00] [sub]   + Regretting You (2025) → Regretting.You.2025.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:40:01] [sub]   + Orwell (2025) → Orwell.2.2.5.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:40:02] [sub]   + Secret Ceremony (1968) → Secret.Ceremony.1968.1080p.Bluray.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:40:02] [sub]   + Silent Hill (2006) → Silent.Hill.2006.1080p.Bluray_www.Talafilm.Top.vtt
+[2026-07-09T22:40:03] [sub]   + Marlowe (1969) → Marlowe.1969.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:40:03] [sub]   Progress: 400/3000 checked, 399 found
+[2026-07-09T22:40:03] [sub]   + A Merry Little Ex-Mas (2025) → A.Merry.Little.Ex.Mas.2025.1080p.WEB.DL.6ch.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:40:04] [sub]   + Dream Eater (2025) → Dream.Eater.2025.1080p.WEB.DL.6ch.Yify.Farsi.Sub_www.Talafilm.Top.vtt
+[2026-07-09T22:40:05] [sub]   + Nuts (1987) → Nuts.1987.1080p.WEB.DL.Rarbg_www.Talafilm.Top.vtt
+[2026-07-09T22:40:05] [sub]   + Murder at the Embassy (2025) → Murder.at.the.Embassy.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:06] [sub]   + Anniversary (2025) → Anniversary.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:07] [sub]   + Train Dreams (2025) → Train.Dreams.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:07] [sub]   + Altered (2025) → Altered.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:08] [sub]   + The Family Plan 2 (2025) → The.Family.Plan.2.2025.1080p.WEB-DL.6CH.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:09] [sub]   + Plainclothes (2025) → Plainclothes.2025.1080p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:09] [sub]   + No Other Choice (2025) → No.Other.Choice.2025.1080p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:10] [sub]   + After the Hunt (2025) → After.the.Hunt.2025.1080p.WEB-DL.6CH.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:11] [sub]   + Urchin (2025) → Urchin.2025.1080p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:11] [sub]   + Trapezium (2024) → Trapezium.2024.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:12] [sub]   + Legend (2015) → Legend.2015.1080p.BrRip.6CH.ShAaNiG._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:12] [sub]   + Stitch Head (2025) → Stitch.Head.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:13] [sub]   + Jalan Pulang (2025) → Jalan.Pulang.2025.720p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:14] [sub]   + Violent Ends (2025) → Violent.Ends.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:14] [sub]   + The Roughneck (2025) → The.Roughneck.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:15] [sub]   + Shelby Oaks (2024) → Shelby.Oaks.2024.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:16] [sub]   + Deathstalker (2025) → Deathstalker.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:16] [sub]   + If I Had Legs I'd Kick You (2025) → If.I.Had.Legs.Id.Kick.You.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:17] [sub]   + Sendero (2024) → Dogs.on.the.Sendero.2024.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:18] [sub]   + Belén (2025) → Belen.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:18] [sub]   + A Woman Scorned (2025) → A.Woman.Scorned.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:19] [sub]   + Nouvelle Vague (2025) → Nouvelle.Vague.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:19] [sub]   + Johnny Belinda (1948) → Johnny.Belinda.1948.720p.WEBRip.YTS_www.TalaFIlm.Top.vtt
+[2026-07-09T22:40:20] [sub]   + Day of a Lion (2025) → Day.Of.A.Lion.2025.720p.BluRay.YTS_www.TalaFIlm.Top.vtt
+[2026-07-09T22:40:21] [sub]   + Exit Protocol (2025) → Exit.Protocol.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:21] [sub]   + Shark Terror (2025) → Shark.Terror.2025.720p.WEBRip.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:22] [sub]   + Tee Yai: Born to Be Bad (2025) → Tee.Yai.Born.to.Be.Bad.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:23] [sub]   + In Your Dreams (2025) → In.Your.Dreams.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:23] [sub]   + One Battle After Another (2025) → One.Baattle.After.Another.2025.720p.WEB-DL.x264.pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:24] [sub]   + Him (2025) → Him.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:25] [sub]   + In Broad Daylight (2023) → In.Broad.Daylight.2023.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:25] [sub]   + Kataomoi Sekai (2025) → Kataomoi.Sekai.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:26] [sub]   + Playdate (2025) → Playdate.2025.720p.WEB-DL.PaHe.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:27] [sub]   + Stelios (2024) → stelios.AKA.yparho.2024.720p.AMZN.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:27] [sub]   + Soul on Fire (2025) → Soul.on.Fire.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:28] [sub]   + Le secret de Khéops (2025) → Le.Secret.De.Kheops.2025.720p.BluRay.x264.AAC.YTS._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:29] [sub]   + Dead to Rights (2025) → Dead.to.Rights.2025.HC.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:29] [sub]   + Night of the Reaper (2025) → Night.Of.The.Reaper.2025.720p.WEB-DL.x264.AAC.YTS.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:30] [sub]   + To Kill A Mongolian Horse (2024) → To.Kill.A.Mongolian.Horse.2024.720p.WEB-DL.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:31] [sub]   + The Beldham (2024) → The.Beldham.2025.720p.AMZN.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:31] [sub]   + Kiss of the Spider Woman (2025) → Kiss.Of.The.Spider.Woman.2025.1080p.Bluray.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:32] [sub]   + Roofman (2025) → Roofman.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:32] [sub]   + The Piano Accident (2025) → The.Piano.Accident.2025.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:33] [sub]   + 13 Days, 13 Nights (2025) → 13.Days.13.Nights.2025.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:34] [sub]   + Murderer Report (2025) → Murderer.Report.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:34] [sub]   + Red Sonja (2025) → Red.Sonja.2025.720p.BluRay.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:35] [sub]   + Stone Cold Fox (2025) → Stone.Cold.Fox.2025.720p.WEBRip._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:36] [sub]   + Milarepa (2024) → Milarepa.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:36] [sub]   + Le Mohican (2024) → The.Mohican.2024.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:37] [sub]   + L'aventura (2025) → L.Aventura.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:38] [sub]   + Enzo (2025) → Enzo.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:38] [sub]   + Black Phone 2 (2025) → Black.Phone.2.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:39] [sub]   + Safe House (2025) → Safe.House.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:39] [sub]   + Guru Nanak Jahaz (2025) → Guru.Nanak.Jahaz.2025.720p.WEB-DL.YIFY.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:40] [sub]   + Vash Level 2 (2025) → Vash.Level.2.2025.720p.WEBRip.x264.AAC.YTS.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:41] [sub]   + Dayi: Bir Adamin Hikayesi 2 (2025) → Dayi.Bir.Adamin.Hikayesi.2.2025.720p.WEB-DL.AAC.YIFY.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:41] [sub]   + The Robber (2010) → The.Robber.2010.720p.BluRay.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:42] [sub]   + Memories of the Sword (2015) → Memories.of.the.Sword.2015.720p.BluRay.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:43] [sub]   + Frankenstein (2025) → Frankenstein.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:43] [sub]   + Eleanor the Great (2025) → Eleanor.the.Great.2025.720p.WEB-DL.AAC.YIFY.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:44] [sub]   + Reflection in a Dead Diamond (2025) → Reflection.in.a.Dead.Diamond.2025.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:45] [sub]   + OG (2025) → They.Call.Him.OG.2025.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:45] [sub]   + Dehset Bey (2025) → Dehset.Bey.2025.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:46] [sub]   + The Negotiator (2025) → Il.Nibbio.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:46] [sub]   + Justicia artificial (2024) → Justicia.Artificial.2024.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:47] [sub]   + Ice Fall (2025) → Ice.Fall.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:48] [sub]   + The Smashing Machine (2025) → The.Smashing.Machine.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:48] [sub]   + Ghost Trail (2024) → Ghost.Trail.2024.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:49] [sub]   + Ballad of a Small Player (2025) → Ballad.of.a.Small.Player.2025.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:50] [sub]   + Kuyang (2024) → Kuyang.Sekutu.Iblis.yang.Selalu.Mengintai.2024.720p.WEB-DL.AAC.YIFY.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:50] [sub]   + Trillion Game (2025) → Trillion.Game.2025.720p.BrRip.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:51] [sub]   + A Little Prayer (2023) → A.Little.Prayer.2023.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:52] [sub]   + Hell House LLC: Lineage (2025) → Hell.House.LLC.Lineage.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:52] [sub]   + Don't Let's Go to the Dogs Tonight (2024) → Dont.Lets.Go.To.The.Dogs.Tonight.2024.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:53] [sub]   + The History of Sound (2025) → The.History.of.Sound.2025.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:53] [sub]   + The Ice Tower (2025) → The.Ice.Tower.2025.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:54] [sub]   + Zanjeer (1973) → Zanjeer.1973.DVDRip.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:55] [sub]   + I Am What I Am 2 (2024) → I.Am.What.I.Am.2.2024.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:40:55] [sub]   + Familiar Touch (2024) → Familiar.Touch.2024.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:56] [sub]   + Prorok. Istoriya Aleksandra Pushkina (2025) → Prorok.Istoriya.Aleksandra.Pushkina.2025.WEB-DL.720p.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:57] [sub]   + Hedda (2025) → Hedda.2025.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:57] [sub]   + Wishmaster 4: The Prophecy Fulfilled (2002) → Wishmaster.4.The.Prophecy.Fulfilled.2002.720p.BluRay.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:58] [sub]   + Rab Ne Bana Di Jodi (2008) → Rab.Ne.Bana.Di.Jodi.2008.720p.BluRay.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:59] [sub]   + Crossroads (1986) → Crossroads.1986.720p.BluRay.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:40:59] [sub]   + Nights in Rodanthe (2008) → Nights.in.Rodanthe.2008.720p.BluRay.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:00] [sub]   + Forgive Us All (2025) → Forgive.Us.All.2025.720p.WEB-DL.AAC.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:01] [sub]   + Man from Del Rio (1956) → Man.from.Del.Rio.1956.DVDRip_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:01] [sub]   + Waktu Maghrib 2 (2025) → Waktu.Maghrib.2.2024.480p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:02] [sub]   + Khakee (2004) → Khakee.Das.todliche.Gesetz.Indiens.2004.720p.WEB-DL.PaHe.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:02] [sub]   + Awe! (2018) → Awe.2018.720p.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:03] [sub]   + The Man with the Black Umbrella (2025) → The.Man.With.The.Black.Umbrella.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:04] [sub]   + Anemone (2025) → Anemone.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:04] [sub]   + Bad Man (2025) → Bad.Man.2025.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:05] [sub]   + The Firefighters (2024) → The.Firefighters.2024.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:06] [sub]   + The Partisan (2024) → The.Partisan.2024.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:06] [sub]   + Baaghi 4 (2025) → Baaghi.4.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:07] [sub]   + The Jester 2 (2025) → The.Jester.2.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:08] [sub]   + Xeno (2025) → Xeno.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:08] [sub]   + A House of Dynamite (2025) → A.House.of.Dynamite.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:09] [sub]   + Jiko Bukken: Zoku Kowai Madori (2025) → Stigmatized.Properties.Possession.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:10] [sub]   + Bone Lake (2024) → Bone.Lake.2024.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:10] [sub]   + Favours (2024) → Favours.2024.720p.WEB-DL.HardSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:11] [sub]   + Abandoned Man (2025) → Abandoned.Man.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:12] [sub]   + The Bunny Game (2011) → The.Bunny.Game.2010.1080p.BluRay.H264.AAC.RARBG._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:12] [sub]   + The Teacher (2023) → The.Teacher.2023.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:13] [sub]   + The Hand That Rocks the Cradle (2025) → The.Hand.That.Rocks.the.Cradle.2025.720p.WEB-DL.AAC.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:13] [sub]   + Good News (2025) → Good.News.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:14] [sub]   + She Taught Me Serendipity (2024) → She.Taught.Me.Serendipity.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:15] [sub]   + Mirayi (2025) → Mirai.2025.720p.WEB-DL.x264.AAC.YTS._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:15] [sub]   + Downton Abbey: The Grand Finale (2025) → Downton.Abbey.The.Grand.Finale.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:16] [sub]   + Killing Faith (2025) → Killing.Faith.2025.720p.WEBRip.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:17] [sub]   + Lurker (2025) → Lurker.2025.720p.WEBRip.x264.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:17] [sub]   + The Woman in Cabin 10 (2025) → The.Woman.in.Cabin.10.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:18] [sub]   + A Serbian Film (2010) → A.Serbian.Film.2010.1080p.BluRay.x264.YTS.vtt
+[2026-07-09T22:41:19] [sub]   + The Roses (2025) → The.Roses.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:19] [sub]   + Dead of Winter (2025) → Dead.of.Winter.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:20] [sub]   + The Long Walk (2025) → The.Long.Walk.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:20] [sub]   + Hurry Up Tomorrow (2025) → Hurry.Up.Tomorrow.2025.480p.WEB-DL.SoftSub_Www.TalaFilm.Top.vtt
+[2026-07-09T22:41:21] [sub]   + Found Footage: The Making of the Patterson Project (2025) → Found.Footage.The.Making.Of.The.Patterson.Project.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:22] [sub]   + The Astronaut (2025) → The.Astronaut.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:23] [sub]   + She Walks in Darkness (2025) → She.Walks.in.Darkness.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:23] [sub]   + The Strangers: Chapter 2 (2025) → The.Strangers.Chapter.2.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:24] [sub]   + A Big Bold Beautiful Journey (2025) → A.Big.Bold.Beautiful.Journey.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:25] [sub]   + The Twits (2025) → The.Twits.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:25] [sub]   + Our Fault (2025) → Our.Fault.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:26] [sub]   + Sanatorium Under the Sign of the Hourglass (2024) → Sanatorium.Under.the.Sign.of.the.Hourglass.2024.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:27] [sub]   + One More Shot (2025) → One.More.Shot.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:27] [sub]   + Motel Destino (2024) → Motel.Destino.2024.720p.WEBRip.x264.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:28] [sub]   + Primitive War (2025) → Primitive.War.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:29] [sub]   + Gabby's Dollhouse: The Movie (2025) → Gabbys.Dollhouse.The.Movie.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:29] [sub]   + Caramelo (2025) → Caramelo.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:30] [sub]   + An Orange from Jaffa (2023) → An.Orange.from.Jaffa.2024.480p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:31] [sub]   + Maa (2025) → Maa.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:31] [sub]   + Omniscient Reader: The Prophecy (2025) → Omniscient.Reader.The.Prophecy.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:32] [sub]   + London Calling (2025) → London.Calling.2025.720p.WEB-DL.x264.AAC.YTS._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:33] [sub]   + The Conjuring: Last Rites (2025) → The.Conjuring.Last.Rites.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:33] [sub]   + Ejen Ali the Movie 2 (2025) → Ejen.Ali.The.Movie.2.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:34] [sub]   + Maintenance Required (2025) → Maintenance.Required.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:34] [sub]   + Vicious (2025) → Vicious.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:35] [sub]   + Qodrat 2 (2025) → Qodrat.2.2025.720p.NF.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:36] [sub]   + The Home (2025) → The.Home.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:36] [sub]   + Scorned (1993) → Scorned.1993.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:41:37] [sub]   + War 2 (2025) → War.2.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:38] [sub]   + Riraito (2025) → Rewrite.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:38] [sub]   + The Things You Kill (2025) → The.Things.You.Kill.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:39] [sub]   + The Baltimorons (2025) → The.Baltimorons.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:40] [sub]   + Angkara Murka (2025) → Mad.of.Madness.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:41] [sub]   + Kishibe Rohan wa Ugokanai Zange-shitsu (2025) → Kishibe.Rohan.wa.Ugokanai.Zange.Shitsu.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:42] [sub]   + Twinless (2025) → Twinless.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:42] [sub]   + The Threesome (2025) → The.Threesome.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:43] [sub]   + Captives (2023) → Captives.2023.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:44] [sub]   + Stolen Girl (2025) → Stolen.Girl.2025.720p.WEB-DL.RGB.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:45] [sub]   + V/H/S/Halloween (2025) → V.H.S.Halloween.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:45] [sub]   + Mahavatar Narsimha (2025) → Mahavatar.Narsimha.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:46] [sub]   + The Man in My Basement (2025) → The.Man.In.My.Basement.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:46] [sub]   + The Lost Bus (2025) → The.Lost.Bus.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:47] [sub]   + Sunset Sunrise (2025) → Sunset.Sunrise.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:48] [sub]   + Steve (2025) → Steve.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:49] [sub]   + Saiyaara (2025) → Saiyaara.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:49] [sub]   + Bang (2025) → Bang.2025.720p.BluRay.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:50] [sub]   + Bait (2025) → Bait.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:51] [sub]   + Ask Sadece Bir An (2025) → Ask.Sadece.Bir.An.2025.720p.WEB-DL.HardSub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:51] [sub]   + About Family (2024) → About.Family.2024.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:52] [sub]   + Simarik (2024) → Simarik.2024.720p.WEB-DL.HardSub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:53] [sub]   + Afterburn (2025) → Afterburn.2025.720p.WEB-DL.x264.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:53] [sub]   + Adulthood (2025) → Adulthood.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:54] [sub]   + Caught Stealing (2025) → Caught.Stealing.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:55] [sub]   + My Daughter Is A Zombie (2025) → My.Daughter.is.a.Zombie.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:55] [sub]   + Play Dirty (2025) → Play.Dirty.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:56] [sub]   + Rabbit Trap (2025) → Rabbit.Trap.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:56] [sub]   + Kuchinai Sakura (2024) → Sakura.2024.720p.BluRay.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:57] [sub]   + The Toxic Avenger (2023) → The.Toxic.Avenger.2023.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:58] [sub]   + The Exit 8 (2025) → The.Exit.8.2025.720p.SCREENER.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:58] [sub]   + Renoir (2025) → Renoir.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:41:59] [sub]   + Akshardham: Operation Vajra Shakti (2025) → Akshardham.Operation.Vajra.Shakti.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:00] [sub]   + Animal (2024) → All.the.Devils.are.Here.2025.1080p.WEB-DL.10Bit.DDP5.1.x265.NeoNoir._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:01] [sub]   + The Young Mother's Home (2025) → Young.Mothers.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:01] [sub]   + Barroz: Guardian of Treasures (2024) → Barroz.Guardian.Of.Treasures.2024.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:02] [sub]   + The Fetch (2024) → The.Twin.2024.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:11] [sub]   + Inspector Zende (2025) → Inspector.Zende.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.srt
+[2026-07-09T22:42:12] [sub]   + Mantis (2025) → Mantis.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:12] [sub]   + All of You (2024) → All.of.You.2024.720p.WEB-DL.x264.vtt
+[2026-07-09T22:42:13] [sub]   + Tichá posta (2025) → Secret.Delivery.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:14] [sub]   + The Hanging Sun (2022) → The.Hanging.Sun.2022.720p.WEB-DL.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:42:14] [sub]   + Freakier Friday (2025) → Freakier.Friday.2025.720p.WEBRip.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:24] [sub]   + Pink Moon (2022) → Pink.Moon.2022.720p.WEB-DL.x264.AAC.YIFY._www.TalaFilm.Top.srt
+[2026-07-09T22:42:24] [sub]   + Coolie (2025) → Coolie.2025.720p.WEBRip.x264.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:25] [sub]   + The Bigfoot Trap (2023) → The.Bigfoot.Trap.2023.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:26] [sub]   + The Cut (2024) → The.Cut.2024.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:26] [sub]   + Aztec Batman: Clash of Empires (2025) → Aztec.Batman.Clash.Of.Empires.2025.720p.WEB-DL.x264.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:27] [sub]   + Audrey's Children (2024) → Audreys.Children.2024.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:28] [sub]   + Project MKHEXE (2025) → Project.MKHEXE.2025.720p.WEBRip.x264.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:28] [sub]   + She Said Maybe (2025) → She.Said.Maybe.2025.720p.WEB-DL.x264.AAC.YTS._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:29] [sub]   + The Ghost Game (2025) → The.Ghost.Game.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:30] [sub]   + Carne (1992) → Carne.1991.Dvdrip_www.TalaFilm.Top.vtt
+[2026-07-09T22:42:30] [sub]   + Bâan - The Boundary of Adulthood - (2025) → Baan.The.Boundaries.of.Adulthood.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:31] [sub]   + American Sweatshop (2025) → American.Sweatshop.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:31] [sub]   Progress: 600/3000 checked, 599 found
+[2026-07-09T22:42:32] [sub]   + Nobody 2 (2025) → Nobody.2.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:33] [sub]   + Swiped (2025) → Swiped.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:33] [sub]   + Prisoner of War (2025) → Prisoner.of.War.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:35] [sub]   + Pretty Crazy (2025) → Pretty.Crazy.2025.720p.WEB-DL.Farsi.Subed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:35] [sub]   + Islands (2025) → Islands.2025.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:36] [sub]   + Trust (2025) → Trust.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:37] [sub]   + Survival Island (2005) → Survival.Island.2005.1080p.WEB-DL.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:42:38] [sub]   + I Spit on Your Grave 2 (2013) → I.Spit.On.Your.Grave.2.2013.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:39] [sub]   + Ultimate Mission (2025) → Ultimate.Mission.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:40] [sub]   + Under Fire (2025) → Under.Fire.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:41] [sub]   + Dracula: A Love Tale (2025) → Dracula.A.Love.Tale.2025.720p.BluRay.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:42] [sub]   + Witchboard (2024) → Witchboard.2024.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:43] [sub]   + Barron's Cove (2024) → Barrons.Cove.2024.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:44] [sub]   + The Wrong Paris (2025) → The.Wrong.Paris.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:45] [sub]   + Leave One Day (2025) → Leave.One.Day.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:46] [sub]   + The Green Hornet (2011) → The.Green.Hornet.2011.Bluray.720p.Ganool_._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:47] [sub]   + Relay (2024) → Relay.2024.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:48] [sub]   + Americana (2023) → Americana.2023.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:49] [sub]   + Don't Hang Up (2025) → Dont.Hang.Up.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:50] [sub]   + Splitsville (2025) → Splitsville.2025.720p.BluRay.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:51] [sub]   + The Silent Planet (2024) → The.Silent.Planet.2024.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:52] [sub]   + Highest 2 Lowest (2025) → Highest.2.Lowest.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:52] [sub]   + The Babysitter: Killer Queen (2020) → The.Babysitter.Killer.Queen.2020.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:53] [sub]   + Warden (2023) → Warden.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:54] [sub]   + Fair Rain (2025) → Fair.Rain.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:55] [sub]   + The Occupant (2025) → The.Occupant.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:56] [sub]   + 825 Forest Road (2025) → 825.Forest.Road.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:57] [sub]   + Ek Villain Returns (2022) → Ek.Villain.Returns.2022.720p.WEB-DL.AAC.YIFY.vtt
+[2026-07-09T22:42:57] [sub]   + Weapons (2025) → Weapons.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:58] [sub]   + Isolated (2025) → Isolated.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:42:59] [sub]   + Honey Don't! (2025) → Honey.Dont.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:00] [sub]   + Raid 2 (2025) → Raid.2.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:01] [sub]   + The Killer is Calling (2025) → The.Killer.Is.Calling.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:02] [sub]   + Silent Love (2024) → Silent.Love.2024.720p.Japanese.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:03] [sub]   + Frankie and Johnny (1991) → Frankie.And.Johnny.1991.720p.BluRay.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:04] [sub]   + Hallow Road (2025) → Hallow.Road.2025.720p.WEB-DL.AAC.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:04] [sub]   + The Last Front (2024) → The.Last.Front.2024.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:05] [sub]   + High Ground (2025) → High.Ground.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:06] [sub]   + Materialists (2025) → Materialists.2025.1080p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:07] [sub]   + Bambi: The Reckoning (2025) → Bambi.The.Reckoning.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:08] [sub]   + Grown Ups 2 (2013) → Grown_Ups_2_2013_720p_Ganool_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:10] [sub]   + Grown Ups (2010) → Grown.Ups.2010.BRrip.720p.ShAaNiG_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:11] [sub]   + 8 Mile (2002) → 8.Mile.2002.720p.BluRay.Ganool.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:11] [sub]   + Girls to Buy (2021) → Dziewczyny.z.Dubaju.2021.720p.BrRip.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:12] [sub]   + B.R.I (2023) → B.R.I.2023.480p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:13] [sub]   + Thérèse (2012) → Therese.Desqueyroux.2012.720p.BluRay_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:14] [sub]   + Mystery Island: Play for Keeps (2025) → Mystery.Island.Play.For.Keeps.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:14] [sub]   + The Life of Chuck (2024) → The.Life.of.Chuck.2024.720p.WEB-DL.Pahe.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:15] [sub]   + 28 Years Later (2025) → 28.Years.Later.2025.1080p.WEBRip_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:16] [sub]   + The Girl with the Needle (2024) → The.Girl.with.the.Needle.2024.720p.BluRay.x264.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:17] [sub]   + Companion (2025) → Companion.2025.720p.BrRip.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:17] [sub]   + The Naked Gun (2025) → The.Naked.Gun.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:18] [sub]   + Alien (1979) → Alien.1979.1080p.x265.10bit.RARBG_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:19] [sub]   + Modern Times (1936) → Modern.Times.1936.720p.BluRay.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:19] [sub]   + Jurassic World: Rebirth (2025) → Jurassic.World.Rebirth.2025.1080p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:20] [sub]   + 1st Kiss (2025) → 1st.Kiss.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:21] [sub]   + Martyrs (2008) → Martyrs.2008.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:21] [sub]   + Pengepungan di Bukit Duri (2025) → The.Siege.At.Thorn.High.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:22] [sub]   + Teki Cometh (2024) → Teki.Cometh.2024.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:23] [sub]   + Forrest Gump (1994) → Forrest.Gump.1994.720p.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:24] [sub]   + The Good, the Bad and the Ugly (1966) → TheGoodTheBadAndTheUgly-1966-720p_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:25] [sub]   + Pulp Fiction (1994) → Pulp.Fiction.1994.1080p.x265.10bit.RARBG_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:25] [sub]   + American Beauty (1999) → American.Beauty.1999.720p.BluRay.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:26] [sub]   + Maareesan (2025) → Maareesan.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:27] [sub]   + Kontinental '25 (2025) → Kontinental25.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:27] [sub]   + Harakiri (1962) → Harakiri.1962.1080p.VXT_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:28] [sub]   + Whiplash (2014) → Whiplash.2014.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:29] [sub]   + The Departed (2006) → The.Departed.2006.720p.BluRay.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:30] [sub]   + Grave of the Fireflies (1988) → Grave.of.the.Fireflies.1988.720p.BluRay.Ganool._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:30] [sub]   + The Lion King (1994) → The.Lion.King.1994.720p.BluRay.6CH.RARBG._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:32] [sub]   + Psycho (1960) → Psycho.1960.720p.BluRay.MkvCage._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:32] [sub]   + Parasite (2019) → Parasite.2019.720p.BluRay.MkvCage.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:33] [sub]   + Gladiator (2000) → Gladiator.2000.Extended.720p.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:34] [sub]   + The Pianist (2002) → The.Pianist.2002.720p.BrRip.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:35] [sub]   + Spirited Away (2001) → Spirited.Away.2001.720p.BrRip.MkvCage_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:35] [sub]   + Back to the Future (1985) → Back.to.the.Future.1985.720p.ShAaNiG_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:36] [sub]   + Star Wars: Episode IV - A New Hope (1977) → Star.Wars.IV.A.New.Hope.1977.720p.BluRay.Ganool._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:36] [sub]   + Terminator 2: Judgment Day (1991) → Terminator.2.Judgement.Day.1991.EXTENDED.REMASTERED.1080p.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:43:37] [sub]   + Life Is Beautiful (1997) → Life.Is.Beautiful.1997.720p.BluRay.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:38] [sub]   + City of God (2002) → City.Of.God.2002.720p.BluRay._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:39] [sub]   + Kreepaway Kamp (2024) → Kreepaway.Kamp.2024.720p.WEB-DL.2Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:39] [sub]   + Looky-loo (2025) → Looky.loo.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:40] [sub]   + 366 Nichi (2025) → 366.Days.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:41] [sub]   + Ghost Train (2024) → Ghost.Train.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:42] [sub]   + Dhoom Dhaam (2025) → Dhoom.Dhaam.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:43] [sub]   + Sting (2024) → Sting.2024.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:44] [sub]   + Fall for me (2025) → Fall.For.Me.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:44] [sub]   + Moon le panda (2025) → Moon.Le.Panda.2025.720p.BluRay.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:43:54] [sub]   + Midnight Sun (2023) → Midnight.Sun.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.srt
+[2026-07-09T22:43:54] [sub]   + The Plot (2024) → The.Plot.2024.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:12] [sub]   + Cleaner (2025) → Cleaner.2025.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:13] [sub]   + I Know What You Did Last Summer (2025) → I.Know.What.You.Did.Last.Summer.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:14] [sub]   + The Sound (2025) → The.Sound.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:15] [sub]   + A Walk to Remember (2002) → A.Walk.to.Remember.2002.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:16] [sub]   + The Bad Guys 2 (2025) → The.Bad.Guys.2.2025.720p.WEB-DL.x264.Pahe.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:16] [sub]   + Love Untangled (2025) → Love.Untangled.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:17] [sub]   + My Mother's Wedding (2023) → My.Mothers.Wedding.2023.1080p.WEB-DL.10bit.x265.PSA.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:18] [sub]   + The Thursday Murder Club (2025) → The.Thursday.Murder.Club.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:19] [sub]   + Picture This (2025) → Picture.This.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:19] [sub]   + Limonov: The Ballad (2024) → Limonov.The.Ballad.2024.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:20] [sub]   + Oh, Hi! (2025) → Oh.Hi.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:21] [sub]   + Sketch (2024) → Sketch.2024.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:22] [sub]   + A Gilded Game (2025) → A.Gilded.Game.2025.720p.BluRay.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:23] [sub]   + Together (2025) → Together.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:24] [sub]   + Noise (2024) → Noise.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:25] [sub]   + She Rides Shotgun (2025) → She.Rides.Shotgun.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:26] [sub]   + The Pact (2012) → The.Pact.2012.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:28] [sub]   + The Wizard of the Emerald City (2025) → The.Wizard.of.the.Emerald.City.2024.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:29] [sub]   + F1: The Movie (2025) → F1.The.Movie.2025.720p.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:30] [sub]   + Two by Two: Overboard! (2020) → Two.by.Two.Overboard.2020.720p.BrRip.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:30] [sub]   + Yadang: The Snitch (2025) → Yadang.The.Snitch.2025.720p.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:31] [sub]   + Canadian, Sniper (2024) → Canadian.Sniper.2024.1080p.WEB-DL.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:32] [sub]   + Eenie Meanie (2025) → Eenie.Meanie.2025.720p.WEB-DL.x264.AAC.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:33] [sub]   + House of Sayuri (2024) → House.Of.Sayuri.2024.1080p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:34] [sub]   + Make Me Believe (2023) → Sen.Inandir.2023.480p.WEB-DL.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:34] [sub]   + The Map That Leads to You (2025) → The.Map.That.Leads.To.You.2025.720p.WEB-DL.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:35] [sub]   + Elio (2025) → Elio.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:36] [sub]   + Ivy + Bean: The Ghost That Had to Go (2022) → Ivy.Bean.The.Ghost.That.Had.To.Go.2022.1080p.WEB-DL.x264.AAC5.1-YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:37] [sub]   + Donghwajiman cheongbul-ibnida (2025) → Forbidden.Fairytale.Uncut.2025.x265.1080p.WEB-DL.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:38] [sub]   + Sleeping Dogs (2024) → Sleeping.Dogs.2024.720p.BluRay.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:39] [sub]   + Sidelined: The QB and Me (2024) → Sidelined.The.QB.And.Me.2024.720p.BluRay.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:39] [sub]   + Locked (2025) → Locked.2025.720p.BluRay.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:40] [sub]   + My Mom Jayne (2025) → My.Mom.Jayne.2025.1080p.WEB-DL.DDP.5.1.10bit.H.265-iVy.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:40] [sub]   + Superman (2025) → Superman.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:41] [sub]   + Kandahar (2023) → Kandahar_2023_720p_BrRip_YIFY__www.TalaFilm.Top.vtt
+[2026-07-09T22:44:42] [sub]   + While You Were Sleeping (1995) → While.You.Were.Sleeping.1995.720p.BrRip.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:42] [sub]   + The Ninth Gate (1999) → The.Ninth.Gate.1999.1080p.BluRay._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:43] [sub]   + The Bodyguard (1992) → The.Bodyguard.1992.1080p.BluRay.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:43] [sub]   + Ne Zha 2 (2025) → Ne.Zha.2.2025.720p.WEB-DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:44] [sub]   + Holland (2025) → Holland.2025.720p.WEB-DL.x264.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:45] [sub]   + Sapphire Blue (2014) → Saphirblau.2014.720p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:46] [sub]   + Night Always Comes (2025) → Night.Always.Comes.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:46] [sub]   + Fixed (2025) → Fixed.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:47] [sub]   + Hostile Takeover (2025) → Hostile.Takeover.2025.720p.WEB-DL.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:48] [sub]   + The Last Gunfight (2025) → The.Last.Gunfight.2025.1080p.WEB-DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:48] [sub]   + Bring Them Down (2024) → Bring.Them.Down.2024.1080p.BluRay.x264.AAC5.1.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:49] [sub]   + Narivetta (2025) → Narivetta.2025.1080p.WEB-DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:50] [sub]   + Kraken (2025) → Kraken.2025.1080p.WEB-DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:51] [sub]   + Bird (2024) → Bird.2024.720p.BluRay.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:51] [sub]   + The Pickup (2025) → The.Pickup.2025.1080p.WEB-DL.x264.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:52] [sub]   + Mr Burton (2025) → Mr.Burton.2025.720p.BluRay.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:44:53] [sub]   + El 47 (2024) → El.47.2024.1080p.BrRip.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:53] [sub]   + Ocean with David Attenborough (2025) → Ocean.With.David.Attenborough.2025.1080p.WEBRip.x264.AAC5.1-YTS.SoftSub.vtt
+[2026-07-09T22:44:54] [sub]   + Heldin (2025) → Late.Shift.2025.1080p.BluRay.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:54] [sub]   + Lake Mungo (2008) → Lake.Mungo.2008.1080p.BrRip.YIFY.vtt
+[2026-07-09T22:44:55] [sub]   + Jewel Thief - The Heist Begins (2025) → Jewel.Thief.The.Heist.Begins.2025.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:56] [sub]   + The Smurfs Movie (2025) → Smurfs.2025.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:56] [sub]   + Eddington (2025) → Eddington.2025.1080p.WEBRip.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:57] [sub]   + Blue Is the Warmest Colour (2013) → Blue.Is.The.W4rmest.C0lor.2013.1080p.BluRay.x264.YIFY.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:58] [sub]   + Journal 64 (2018) → The.Purity.of.Vengeance.2018.1080p.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:58] [sub]   + Harvest (2024) → Harvest.2024.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:44:59] [sub]   + Drømmer (2024) → Drommer.2024.REPACK.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:00] [sub]   + The Rookies (2019) → The.Rookies.2019.720p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:00] [sub]   + Fighter in the Wind (2004) → Fighter.in.the.Wind.2004.BluRay.720p.Ganool_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:01] [sub]   + Distant (2024) → Distant.2024.1080p.WEBRip.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:02] [sub]   + Blood Brothers (2025) → Blood.Brothers.Bara.Naga.2025.1080p.WEBRip.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:02] [sub]   + In Secret (2013) → In_Secret_2013_720p_BrRip_YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:03] [sub]   + My Love Will Make You Disappear (2025) → My.Love.Will.Make.You.Disappear.2025.SUBFRENCH.1080p.WEBRip.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:04] [sub]   + The Marriage App (2022) → The_Marriage_App_2022_1080p_WEB-DL_YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:04] [sub]   + Queen of Bones (2024) → Queen.of.Bones.2024.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:05] [sub]   + Sacramento (2024) → Sacramento.2024.1080p.WEB-DL.6CH.YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:06] [sub]   + Shaman (2025) → Shaman.2025.1080p.WEB-DL.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:07] [sub]   + Finally Dawn (2023) → Finally.Dawn.2023.1080p.BluRay.x264_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:07] [sub]   + Alpha (2018) → Alpha.2018.1080p.BrRip_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:08] [sub]   + Madame Web (2024) → Madame.Web.2024.1080p.BluRay.x264.DD_7.1.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:45:09] [sub]   + Satantango (1994) → Satantango_1994_720p_BrRip_AAC_YIFY_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:10] [sub]   + The Turin Horse (2011) → The.Turin.Horse.2011.1080p_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:10] [sub]   + Extraction II (2023) → Extraction.2.2023.1080p.WEB-DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:43] [sub] Catalog: 27781 films
+[2026-07-09T22:45:43] [sub] With subtitles: 359, without: 24813
+[2026-07-09T22:45:43] [sub]   + Banduan (2025) → Banduan.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:44] [sub]   + Love Barista (2025) → Love.Barista.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:45] [sub]   + Mrithyunjay (2026) → Mrithyunjay.2026.1080p.WEB.DL.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:45] [sub]   + Thalaivar Thambi Thalaimaiyil (2026) → Thalaivar.Thambi.Thalaimaiyil.2026.1080p.WEB.DL.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:46] [sub]   + Salmokji: Whispering Water (2026) → Salmokji.Whispering.Water.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:46] [sub]   + The Demon Disorder (2024) → The.Demon.Disorder.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:47] [sub]   + Bakudan (2025) → Bakudan.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:48] [sub]   + Remarkably Bright Creatures (2026) → Remarkably.Bright.Creatures.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:48] [sub]   + The Last Whale Singer (2026) → The.Last.Whale.Singer.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:49] [sub]   + Ultimate Revenge () → Ultimate.Revenge.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:50] [sub]   + The Gentleman () → The.Gentleman.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:50] [sub]   + Hokum (2026) → Hokum.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:51] [sub]   + Iron Lung (2026) → Iron.Lung.2026.1080p.WEB.DL.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:51] [sub]   + Tatsama Tadbhava () → Tatsama.Tadbhava.2023.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:52] [sub]   + Finding Harry: The Craft Behind the Magic (2026) → Finding.Harry.The.Craft.Behind.The.Magic.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:53] [sub]   + An Enemy Within () → An.Enemy.Within.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:53] [sub]   + Kaamelott: The Second Chapter  (2025) → Kaamelott.The.Second.Chapter.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:54] [sub]   + Last Train to Fortune (2025) → Last.Train.To.Fortune.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:55] [sub]   + Made in Korea () → Made.In.Korea.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:55] [sub]   + Son Of (2026) → Son.Of.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:56] [sub]   + Winterset () → Winterset.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:56] [sub]   + Cheekatilo (2026) → Cheekatilo.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:57] [sub]   + Biker (2026) → Biker.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:58] [sub]   + In the Grey () → In.The.Grey.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:58] [sub]   + The President’s Cake (2025) → The.Presidents.Cake.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:59] [sub]   + Black Rabbit, White Rabbit () → Black.Rabbit.White.Rabbit.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:45:59] [sub]   + Kartavya (2026) → Kartavya.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:00] [sub]   + Refuge (2026) → Refuge.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:01] [sub]   + The Magic Faraway Tree (2026) → The.Magic.Faraway.Tree.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:01] [sub]   + Tokyo Taxi  (2025) → Tokyo.Taxi.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:02] [sub]   + The Gates (2026) → The.Gates.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:02] [sub]   + You, Me & Tuscany (2026) → You.Me.And.Tuscany.2026.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:03] [sub]   + Beast  (2026) → Beast.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:04] [sub]   + Tom Clancy’s Jack Ryan: Ghost War  (2026) → Tom.Clancys.Jack.Ryan.Ghost.War.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:04] [sub]   + Couture (2025) → Couture.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:05] [sub]   + Scare Out (2026) → Jing.Zhe.Wu.Sheng.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:05] [sub]   + Dhurandhar: The Revenge (2026) → Dhurandhar.The.Revenge.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:06] [sub]   + Swapped (2026) → Swapped.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:07] [sub]   + Kraken (2026) → Kraken.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:07] [sub]   + Lee Cronin’s The Mummy (2026) → Lee.Cronins.The.Mummy.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:08] [sub]   + Our Land (2025) → Our.Land.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:09] [sub]   + Propeller One-Way Night Coach (2026) → Propeller.One.Way.Night.Coach.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:09] [sub]   + Blue Heron (2025) → Blue.Heron.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:10] [sub]   + Pompei: Below the Clouds (2025) → Below.The.Clouds.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:10] [sub]   + Home Behind Bars (2025) → Home.Behind.Bars.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:11] [sub]   + Little Amélie or the Character of Rain (2025) → Little.Amelie.Or.The.Character.Of.Rain.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:12] [sub]   + The Elixir (2025) → The.Elixir.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:12] [sub]   + What We Hide (2025) → What.We.Hide.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:13] [sub]   + Two Prosecutors (2025) → Two.Prosecutors.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:14] [sub]   + Desert Warrior (2025) → Desert.Warrior.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:14] [sub]   + Fuze (2025) → Fuze.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:15] [sub]   + Only God Knows Everything (2025) → Only.God.Knows.Everything.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:16] [sub]   + The King’s Warden (2026) → The.Kings.Warden.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:16] [sub]   + Mother Mary (2026) → Mother.Mary.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:17] [sub]   + No Kids (Heartman: Rock and Love) (2026) → Heartman.Rock.And.Love.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:18] [sub]   + Ladies First  (2026) → Ladies.First.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:18] [sub]   + Gory: A Horror Tale (2026) → The.Cursed.Insatiable.Desires.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:19] [sub]   + The Last One for the Road (2025) → The.Last.One.For.The.Road.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:19] [sub]   + The Shore of Life (2025) → The.Shore.Of.Life.2025.Hc.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:20] [sub]   + Good Luck, Have Fun, Don’t Die (2025) → Good.Luck.Have.Fun.Dont.Die.2025.1080p.Bluray.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:21] [sub]   + Wanted (2009) → Wanted.2009.1080p.Brrip.Aac.Movcr_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:21] [sub]   + Driver’s Ed (2025) → Drivers.Ed.2025.1080.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:22] [sub]   + The Christophers (2025) → The.Christophers.2025.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:22] [sub]   + Normal (2025) → Normal.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:23] [sub]   + The Site (2025) → The.Site.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:24] [sub]   + My Dearest Assassin (2026) → My.Dearest.Assassin.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:24] [sub]   + Faces of Death (2026) → Faces.Of.Death.2026.1080p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:25] [sub]   + Silent Friend (2025) → Silent.Friend.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:26] [sub]   + A Great Awakening (2026) → A.Great.Awakening.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:26] [sub]   + The Ground Beneath Our Feet (2026) → The.Ground.Beneath.Our.Feet.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:27] [sub]   + The Punisher: One Last Kill (2026) → The.Punisher.One.Last.Kill.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:27] [sub]   + Project Hail Mary (2026) → Project.Hail.Mary.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:28] [sub]   + The Drama (2026) → The.Drama.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:29] [sub]   + Panda Plan 2: The Magical Tribe (2026) → Panda.Plan.2.The.Magical.Tribe.2026.1080p.Hc.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:29] [sub]   + The Super Mario Galaxy Movie (2026) → The.Super.Mario.Galaxy.Movie.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:30] [sub]   + The Favor (2025) → The.Favor.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:31] [sub]   + The Wizard of the Kremlin (2025) → The.Wizard.Of.The.Kremlin.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:31] [sub]   + Tow (2025) → Tow.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:32] [sub]   + Kill Code (2026) → Kill.Code.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:33] [sub]   + Roommates (2026) → Roommates.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:33] [sub]   + Heel (Good Boy) (2025) → Heel.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:34] [sub]   + Forbidden Fruits () → Forbidden.Fruits.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:35] [sub]   + Hoppers (2026) → Hoppers.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:35] [sub]   + They Will Kill You (2026) → They.Will.Kill.You.2026.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:36] [sub]   + GoodFellas (1990) → Goodfellas.1990.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:37] [sub]   + Outcome  (2026) → Outcome.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:37] [sub]   + Nirvanna the Band the Show the Movie (2025) → Nirvanna.The.Band.The.Show.The.Movie.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:38] [sub]   + Reminders of Him (2026) → Reminders.Of.Him.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:38] [sub]   + One Mile (2026) → One.Mile.Chapter.One.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:39] [sub]   + One Mile: Chapter Two (2026) → One.Mile.Chapter.Two.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:40] [sub]   + Balls Up (2026) → Balls.Up.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:40] [sub]   + Thrash (2026) → Thrash.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:41] [sub]   + Fight Club (1999) → Fight.Club.1999.1080p.Bluray.Mkvcage_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:41] [sub]   + The Oscars (2026) → The.98th.Annual.Academy.Awards.2026.The.Oscars.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:42] [sub]   + The Legend of Aang: The Last Airbender (2026) → The.Legend.Of.Aang.The.Last.Airbender.2026.720p.Webrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:43] [sub]   + Mektoub, My Love: Canto Due (2025) → Mektoub.My.Love.Canto.Due.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:43] [sub]   + How to Shoot a Ghost (2025) → How.To.Shoot.A.Ghost.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:44] [sub]   + Orphan (2025) → Orphan.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:45] [sub]   + Heel (2025) → Heel.2025.720p.WEB.DL.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:45] [sub]   + Apex (2026) → Apex.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:46] [sub]   + Pleasure (2021) → Pleasure.2021.1080p.Brrip.Aac.Rarbg_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:47] [sub]   + Om Shanti Om (2007) → Om.Shanti.Om.2007.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:47] [sub]   + The Father (2020) → The.Father.2020.1080p.6ch.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:48] [sub]   + Faces of Death (1978) → Faces.Of.Death.1978.1080p.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:48] [sub]   + The Ruse (2025) → The.Ruse.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:49] [sub]   + Song Sung Blue (2025) → Song.Sung.Blue.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:50] [sub]   + Back to the Past (2025) → Back.To.The.Past.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:50] [sub]   + Where to Land (2025) → Where.To.Land.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:51] [sub]   + Merv (2025) → Merv.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:51] [sub]   + Not Without Hope (2025) → Not.Without.Hope.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:52] [sub]   + Momo (2025) → Momo.2025.1080p.Bluray.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:53] [sub]   + Lefter: Bir Ordinaryüs Hikayesi (2025) → Lefter.The.Story.Of.The.Ordinarius.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:53] [sub]   + Gold Rush Gang (2025) → Gold.Rush.Gang.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:54] [sub]   + Dhandoraa (2025) → Dhandoraa.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:54] [sub]   + 10 Days of a Curious Man (2024) → 10.Days.Of.A.Curious.Man.2024.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:55] [sub]   + Resurrection (2025) → Resurrection.2025.720p.WEB.DL.Aac.H.264_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:56] [sub]   + Project Y (2025) → Project.Y.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:56] [sub]   + Arco (2026) → Arco.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:57] [sub]   + In Cold Light (2026) → In.Cold.Light.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:58] [sub]   + Firebreak (2026) → Firebreak.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:58] [sub]   + The Monster (2026) → Twisted.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:59] [sub]   + The Dreadful (2026) → The.Dreadful.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:46:59] [sub]   + The Bluff (2026) → The.Bluff.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:00] [sub]   + Shelter (2026) → Shelter.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:01] [sub]   + Resurrection Road (2025) → Resurrection.Road.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:01] [sub]   + In Time (2011) → In.Time.2011.720p.BluRay.H264.AAC-RARBG.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:02] [sub]   + Hijacked (2025) → Hijacked.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:03] [sub]   + A Fathers Miracle (2026) → A.Fathers.Miracle.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:03] [sub]   + Turbulence (2025) → Turbulence.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:04] [sub]   + We Bury the Dead (2026) → We.Bury.The.Dead.2024.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:04] [sub]   + Worldbreaker (2025) → Worldbreaker.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:05] [sub]   + Hamnet (2025) → Hamnet.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:06] [sub]   + Return to Silent Hill (2026) → Return.To.Silent.Hill.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:06] [sub]   + Dead Man's Wire (2026) → Dead.Mans.Wire.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:07] [sub]   + Black Blood (2025) → Black.Blood.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:07] [sub]   + This Is I (2026) → This.Is.I.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:08] [sub]   + Chef’s Kiss (2026) → Chefs.Kiss.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:09] [sub]   + Crime 101 (2026) → Crime.101.2026.720p.Telesync.Syncup_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:09] [sub]   + Pabanneu (2026) → Pavane.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:10] [sub]   + Panji Tengkorak (2025) → Panji.Tengkorak.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:10] [sub]   + Frontier Crucible (2025) → Frontier.Crucible.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:11] [sub]   + Timeless Tidings of Joy (2025) → Timeless.Tidings.Of.Joy.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:12] [sub]   + Akhanda 2 (2025) → Akhanda.2.Thaandavam.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:12] [sub]   + Pike River (2025) → Pike.River.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:13] [sub]   + People We Meet on Vacation (2026) → People.We.Meet.On.Vacation.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:14] [sub]   + One Mile: Chapter One (2026) → One.Mile.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:14] [sub]   + East of Wall (2025) → East.Of.Wall.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:15] [sub]   + I’ll Be Right There (2023) → Ill.Be.Right.There.2023.WEB.DL.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:15] [sub]   + I Was a Stranger (2026) → I.Was.A.Stranger.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:16] [sub]   + Marcello Hernandez: American Boy (2026) → American.Boy.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:17] [sub]   + The Haunted Forest (2026) → The.Haunted.Forest.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:17] [sub]   + Tafiti: Across the Desert (2025) → Tafiti.Across.The.Desert.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:18] [sub]   + Champion (2025) → Champion.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:19] [sub]   + Dog 51 (2025) → Dog.51.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:19] [sub]   + Night Patrol (2026) → Night.Patrol.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:20] [sub]   + Diabolic (2025) → Diabolic.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:20] [sub]   + Bureau 749 (2024) → Bureau.749.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:21] [sub]   + Kidnapped: Elizabeth Smart (2026) → Kidnapped.Elizabeth.Smart.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:22] [sub]   + Lost Horizon (2025) → Lost.Horizon.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:22] [sub]   + Sirai (2025) → Sirai.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:23] [sub]   + Rajini Gaang (2025) → Rajini.Gaang.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:24] [sub]   + 96 Minutes (2025) → 96.Minutes.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:24] [sub]   + Rebuilding (2025) → Rebuilding.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:25] [sub]   + Mercy (2026) → Mercy.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:26] [sub]   + Love, Brooklyn (2025) → Love.Brooklyn.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:26] [sub]   + Hellfire (2026) → Hellfire.2026.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:27] [sub]   + The Informant (2025) → The.Informant.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:27] [sub]   + The SpongeBob Movie: Search for SquarePants (2025) → The.Spongebob.Movie.Search.For.Squarepants.2025.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:28] [sub]   + Rapide (2025) → Faster.2025.1080p.Webrip.Aac5.1.Yts.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:29] [sub]   + The Hunted (2024) → The.Hunted.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:30] [sub]   + Fabian und die mörderische Hochzeit (2026) → Fabian.Und.Die.Morderische.Hochzeit.2026.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:31] [sub]   + Sukma (2025) → Sukma.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:32] [sub]   + F.Ck Valentines Day (2026) → F.Ck.Valentines.Day.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:32] [sub]   + The Big Fake (2026) → The.Big.Fake.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:33] [sub]   + The Captive (2025) → The.Captive.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:33] [sub]   + Haq (2025) → Haq.2025.1080p.WEB.DL.X265.10bit.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:34] [sub]   + Tidings for the Season (2025) → Tidings.For.The.Season.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:35] [sub]   + Two Worlds, One Wish (2025) → Two.Worlds.One.Wish.2025.1080p.WEBRip.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:47:35] [sub]   + Believe in Christmas (2025) → Believe.In.Christmas.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:36] [sub]   + Christmas at the Catnip Café (2025) → Christmas.At.The.Catnip.Cafe.2025.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:36] [sub]   + Deer Camp '86 (2024) → Deer.Camp.86.2022.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:37] [sub]   + Honey Bunch (2026) → Honey.Bunch.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:38] [sub]   + Redux Redux (2025) → Redux.Redux.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:38] [sub]   + Everything to Me (2024) → Everything.To.Me.2024.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:39] [sub]   + Just Breathe (2025) → Just.Breathe.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:40] [sub]   + Tyler Perry’s Joe’s College Road Trip (2026) → Tyler.Perrys.Joes.College.Road.Trip.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:40] [sub]   + 28 Years Later: The Bone Temple (2026) → 28.Years.Later.The.Bone.Temple.2026.1080p.WEB.DL.6ch_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:41] [sub]   + Blue Cave  (2024) → Blue.Cave.2024.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:41] [sub]   + Eternity (2025) → Eternity.2025.1080p.Bluray.Dd.5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:42] [sub]   + Five Nights at Freddy's 2 (2025) → Five.Nights.At.Freddys.2.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:43] [sub]   + Die My Love (2025) → Die.My.Love.2025.1080p.Bluray.Dd.5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:43] [sub]   + One Last Adventure: The Making of Stranger Things 5 (2026) → One.Last.Adventure.The.Making.Of.Stranger.Things.5.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:44] [sub]   + Suicide Squad (2016) → Suicide.Squad.2016.Extended.1080p.Shaanig_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:45] [sub]   + Ironclad (2011) → Ironclad.2011.1080p.Blu.Ray_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:45] [sub]   + Tina (2024) → Tina.2025.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:46] [sub]   + The Disappearance of Josef Mengele (2025) → The.Disappearance.Of.Josef.Mengele.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:47] [sub]   + La grazia (2026) → La.Grazia.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:47] [sub]   + Misdirection (2026) → Misdirection.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:48] [sub]   + Charlie the Wonderdog (2026) → Charlie.The.Wonderdog.2025.720p.Hdts.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:48] [sub]   + Les enfants rouges (2024) → Red.Path.2024.720p.Nf.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:48] [sub]   Progress: 200/3000 checked, 200 found
+[2026-07-09T22:47:50] [sub]   + Cosmic Princess Kaguya (2026) → Cosmic.Princess.Kaguya.2026.1080p.Nf.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:50] [sub]   + The Omro Heist (2025) → The.Omro.Heist.2025.720p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:51] [sub]   + Speed Faster (2026) → Speed.Faster.2026.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:51] [sub]   + Ella McCay (2025) → Ella.Mccay.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:53] [sub]   + Once Upon My Mother (2025) → Once.Upon.My.Mother.2025.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:55] [sub]   + Rosemead (2025) → Rosemead.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:55] [sub]   + The Muppet Show (2026) → The.Muppet.Show.2026.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:56] [sub]   + Mission: Impossible - The Final Reckoning (2025) → Mission.Impossible.The.Final.Reckoning.2025.Imax.1080p.Bluray.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:57] [sub]   + The Chronology of Water (2025) → The.Chronology.Of.Water.2025.1080p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:57] [sub]   + Six jours (2025) → Six.Jours.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:58] [sub]   + Louise Violet (2024) → Louise.Violet.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:58] [sub]   + Is This Thing On? (2025) → Is.This.Thing.On.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:47:59] [sub]   + The Housemaid (2025) → The.Housemaid.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:00] [sub]   + Eolgul (2025) → The.Ugly.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:00] [sub]   + Relentless (2026) → Relentless.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:01] [sub]   + Los Muértimer (2025) → The.Mortimers.2025.1080p.Webrip.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:02] [sub]   + Eye for an Eye (2025) → Eye.For.An.Eye.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:02] [sub]   + Siccin 8 (2025) → Siccin.8.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:03] [sub]   + Silent Night, Deadly Night (2025) → Silent.Night.Deadly.Night.2025.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:03] [sub]   + Big Deal (2025) → Big.Deal.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:04] [sub]   + Wild London (2026) → Wild.London.2026.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:05] [sub]   + Jumbo (2025) → Jumbo.2025.1080p.WEB.DL.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:05] [sub]   + Sawt Hind Rajab (2025) → The.Voice.Of.Hind.Rajab.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:06] [sub]   + Lookout (2025) → Lookout.2025.1080p.WEB.DL.6ch.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:07] [sub]   + Dhurandhar (2025) → Dhurandhar.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:07] [sub]   + Marty Supreme (2025) → Marty.Supreme.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:08] [sub]   + Thieves Highway (2025) → Thieves.Highway.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:08] [sub]   + Obex (2025) → Obex.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:09] [sub]   + Streaming (2025) → Streaming.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:10] [sub]   + Distort (2025) → Distort.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:10] [sub]   + Oneul Bam, Segyeeseo Yi Sarangyi Sarajinda Haedo (2025) → Even.If.This.Love.Disappears.From.The.World.Tonight.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:11] [sub]   + Merrily We Roll Along (2025) → Merrily.We.Roll.Along.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:12] [sub]   + Ken (2025) → Yes.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:12] [sub]   + The Blue Trail (2025) → The.Blue.Trail.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:13] [sub]   + The Plague (2026) → The.Plague.2025.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:14] [sub]   + A Line of Fire (2025) → A.Line.Of.Fire.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:14] [sub]   + Grizzly Night (2026) → Grizzly.Night.2026.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:15] [sub]   + The Forbidden City (2025) → The.Forbidden.City.2025.720p.Bluray.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:15] [sub]   + On Falling (2025) → On.Falling.2024.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:16] [sub]   + The New Yorker at 100 (2025) → The.New.Yorker.At.100.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:17] [sub]   + Vecina (2025) → Vecina.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:17] [sub]   + The Dutchman (2026) → The.Dutchman.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:18] [sub]   + The Jane Mysteries: Murder at Moseby (2024) → The.Jane.Mysteries.Murder.At.Moseby.2024.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:19] [sub]   + Avatar: The Way of Water (2022) → Avatar.The.Way.Of.Water.2022.BluRay.720p.BluRay.x264.AAC-YTS.vtt
+[2026-07-09T22:48:19] [sub]   + Pillion (2025) → Pillion.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:20] [sub]   + Marc Maron: Panicked (2025) → Marc.Maron.Panicked.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:20] [sub]   + David (2025) → David.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:21] [sub]   + Sound of Falling (2025) → Sound.Of.Falling.2025.720p.Bluray.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:22] [sub]   + Little Forest: Winter/Spring (2015) → Little.Forest.Winter.Spring.2015.1080p.Brrip.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:23] [sub]   + The Wrecking Crew (2026) → The.Wrecking.Crew.2026.720p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:24] [sub]   + Romería (2025) → Romeria.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:26] [sub]   + Peter Hujar's Day (2025) → Peter.Hujars.Day.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:27] [sub]   + Anaconda (2025) → Anaconda.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:28] [sub]   + Zootopia 2 (2025) → Zootopia.2.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:28] [sub]   + The Rip (2026) → The.Rip.2026.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:29] [sub]   + The Secret Agent (2025) → The.Secret.Agent.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:30] [sub]   + Rental Family (2025) → Rental.Family.2025.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:30] [sub]   + Yuki's Revenge (2025) → The.Lost.Chapter.Yukis.Revenge.2025.720p.Webrip.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:31] [sub]   + The Long Game (2024) → The.Long.Game.2024.720p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:31] [sub]   + Killer Whale (2026) → Killer.Whale.2026.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:32] [sub]   + Dust Bunny (2025) → Dust.Bunny.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:33] [sub]   + Kevin Hart: Acting My Age (2025) → Kevin.Hart.Acting.My.Age.2025.720p.WEB.DL.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:33] [sub]   + We Shall Not Be Moved (2024) → We.Shall.Not.Be.Moved.2024.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:34] [sub]   + That Thing You Do! (1996) → That.Thing.You.Do.1996.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:35] [sub]   + Last Bullet (2025) → Last.Bullet.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:35] [sub]   + Balle perdue 2 (2022) → Lost.Bullet.2.Back.For.More.2022.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:36] [sub]   + Balle perdue (2020) → Lost.Bullet.2020.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:37] [sub]   + Kangaroo (2025) → Kangaroo.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:37] [sub]   + Homebound (2025) → Homebound.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:38] [sub]   + Heer Express (2025) → Heer.Express.2025.Hindi.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:39] [sub]   + Harsens Island Revenge (2025) → Harsens.Island.Revenge.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:39] [sub]   + Spiral: From the Book of Saw (2021) → Spiral.2021.1080p.8ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:40] [sub]   + Predator: Badlands (2025) → Predator.Badlands.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:41] [sub]   + Aaryan (2025) → Aaryan.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:41] [sub]   + Raat Akeli Hai: The Bansal Murders (2025) → Raat.Akeli.Hai.The.Bansal.Murders.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:42] [sub]   + Kaantha (2025) → Kaantha.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:43] [sub]   + 120 Bahadur (2025) → 120.Bahadur.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:43] [sub]   + Dollhouse (2025) → Dollhouse.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:44] [sub]   + My Secret Santa (2025) → My.Secret.Santa.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:45] [sub]   + Der Tiger (2025) → The.Tiger.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:45] [sub]   + Blücher (2025) → Blucher.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:46] [sub]   + Stiller & Meara: Nothing Is Lost (2025) → Stiller.And.Meara.Nothing.Is.Lost.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:47] [sub]   + Ricky Gervais: Mortality (2025) → Ricky.Gervais.Mortality.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:47] [sub]   + The War Between (2025) → The.War.Between.2025.1080p.WEB_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:48] [sub]   + Dracula (2025) → Dracula.2025.720p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:48] [sub]   + Jane Austen a gâché ma vie (2024) → Jane.Austen.Wrecked.My.Life.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:49] [sub]   + Jimmy and Stiggs (2025) → Jimmy.And.Stiggs.2024.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:50] [sub]   + House on Eden (2025) → House.On.Eden.2025.1080p.WEB.DL.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:50] [sub]   + Raw File (2025) → Raw.File.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:51] [sub]   + Hyakuemu (2025) → 100.Meters.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:52] [sub]   + Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle (2025) → Demon.Slayer.Kimetsu.No.Yaiba.The.Movie.Infinity.Castle.2025.Hc.1080p.WEB.DL.Cassu_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:52] [sub]   + Fackham Hall (2025) → Fackham.Hall.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.mp4?
+[2026-07-09T22:48:53] [sub]   + Wicked: For Good (2025) → Wicked.For.Good.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:53] [sub]   + La hora de los valientes (2025) → A.Time.For.Bravery.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:54] [sub]   + Cover-Up (2025) → Cover.Up.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:55] [sub]   + The Wilderness (2025) → The.Wilderness.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:55] [sub]   + Bugonia (2025) → Bugonia.2025.1080p.Bluray.Aac5.1.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:56] [sub]   + The Choral (2025) → The.Choral.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:56] [sub]   + Queens of the Dead (2025) → Queens.Of.The.Dead.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:57] [sub]   + Goodbye June (2025) → Goodbye.June.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:58] [sub]   + Dave Chappelle: The Unstoppable (2025) → Dave.Chappelle.The.Unstoppable.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:58] [sub]   + The First Ride (2025) → The.First.Ride.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:48:59] [sub]   + 100 Nights of Hero (2025) → 100.Nights.Of.Hero.2025.720p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:00] [sub]   + Dry Leaf (2025) → Dry.Leaf.2025.1080p.Hc.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:00] [sub]   + Rapaces (2025) → Vultures.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:01] [sub]   + The People We Hate at the Wedding (2022) → The.People.We.Hate.At.The.Wedding.2022.1080p.WEB.DL.Aac.Yts_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:02] [sub]   + Good Fortune (2025) → Good.Fortune.2025.1080p.Bluray.Dd.5.1_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:02] [sub]   + Les orphelins (2025) → Les.Orphelins.2025.WEB.DL.480p_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:03] [sub]   + Black Diamond (2025) → Black.Diamond.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:03] [sub]   + Op-pa saeng-gak (2016) → A.Melody.To.Remember.2016.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:04] [sub]   + Den sidste viking (2025) → The.Last.Viking.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:05] [sub]   + Gekijô-ban Jujutsu Kaisen Kaigyoku / Gyokusetsu (2025) → Jujutsu.Kaisen.Hidden.Inventory.Premature.Death.The.Movie.2025.1080p.WEB.DL.Aac.Yts.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:15] [sub]   + Nuremberg (2025) → Nuremberg.2025.720p.WEB.DL.Aac.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:16] [sub]   + Springsteen: Deliver Me from Nowhere (2025) → Springsteen.Deliver.Me.From.Nowhere.2025.1080p.WEB.DL.6ch.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:16] [sub]   + Avatar: Fire and Ash (2025) → Avatar.Fire.And.Ash.2025.720p.Telesync_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:17] [sub]   + Chaplin (1992) → Chaplin.1992.1080p.Brrip.Rarbg_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:17] [sub]   + Shiranai Kanojo (2025) → Shiranai.Kanojo.2025.1080p.Bluray.Aac5.1.World_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:18] [sub]   + Eight Below (2006) → Eight.Below.2006.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:19] [sub]   + Dreams (2025) → Dreams.2025.1080p.WEB-DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:19] [sub]   + Detective Kien: The Headless Horror (2025) → Detective.Kien.The.Headless.Horror.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:20] [sub]   + Ty - Kosmos (2025) → U.Are.The.Universe.2024.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:20] [sub]   + Daehongsu (2025) → The.Great.Flood.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:21] [sub]   + Falcon Express (2025) → Pets.On.A.Train.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:22] [sub]   + Posthouse (2025) → Posthouse.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:22] [sub]   + The Thing with Feathers (2025) → The.Thing.With.Feathers.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:23] [sub]   + Land's End (2025) → Lands.End.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:23] [sub]   + Sisu 2 (2025) → Sisu.Road.To.Revenge.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:24] [sub]   + Now You See Me: Now You Don’t (2025) → Now.You.See.Me.Now.You.Dont.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:25] [sub]   + Otec (2025) → Father.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:25] [sub]   + Horror in the High Desert 4: Majesty (2025) → Horror.In.The.High.Desert.4.Majesty.2025.1080p.Amzn.WEB.DL.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:26] [sub]   + Tell Me Softly (2025) → Tell.Me.Softly.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:26] [sub]   + Influencers (2025) → Influencers.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:27] [sub]   + Truth & Treason (2025) → Truth.And.Treason.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:28] [sub]   + Being John Malkovich (1999) → Being.John.Malkovich.1999.Brrip.1080p.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:28] [sub]   + Taylor Swift: The Eras Tour - The Final Show (2025) → Taylor.Swift.The.Eras.Tour.The.Final.Show.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:29] [sub]   + Battle for Sevastopol (2015) → Battle.For.Sevastopol.2015.1080p.Bluray.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:30] [sub]   + Badh (2025) → Badh.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:30] [sub]   + Champagne Problems (2025) → Champagne.Problems.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:31] [sub]   + Wake Up Dead Man (2025) → Wake.Up.Dead.Man.A.Knives.Out.Mystery.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:32] [sub]   + The Mastermind (2025) → The.Mastermind.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:32] [sub]   + The Running Man (2025) → The.Running.Man.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:33] [sub]   + Inglourious Basterds (2009) → Inglourious.Basterds.2009.1080p.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:33] [sub]   + Furiosa: A Mad Max Saga (2024) → Furiosa.A.Mad.Max.Saga.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:34] [sub]   + Köln 75 (2025) → Koln.75.2025.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:35] [sub]   + Alpha (2025) → Alpha.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:35] [sub]   + Christy (2025) → Christy.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:36] [sub]   + Palestine 36 (2025) → Palestine.36.2025.1080p.Amzn.WEB.DL.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:36] [sub]   + The Wrecker (2025) → The.Wrecker.2025.1080p.WEB.DL.Rgb.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:37] [sub]   + The Carpenter's Son (2025) → The.Carpenters.Son.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:38] [sub]   + Stone Creek Killer (2025) → Stone.Creek.Killer.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:38] [sub]   + Keeper (2025) → Keeper.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:39] [sub]   + Chainsaw Man - The Movie: Reze Arc (2025) → Chainsaw.Man.The.Movie.Reze.Arc.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:40] [sub]   + 2000 Meters to Andriivka (2024) → 2000.Meters.To.Andriivka.2025.1080p.Webrip.Aac.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:41] [sub]   + 1978 (2024) → 1978.2024.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:42] [sub]   + Hunting Season (2025) → Hunting.Season.2025.1080p.WEB.DL.Rgb_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:42] [sub]   + Diary of A Wimpy Kid: The Last Straw (2025) → Diary.Of.A.Wimpy.Kid.The.Last.Straw.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:43] [sub]   + Sarah's Oil (2025) → Sarahs.Oil.2025.720p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:44] [sub]   + All the Empty Rooms (2025) → All.The.Empty.Rooms.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:44] [sub]   + The Wailing (2024) → The.Wailing.2024.1080p.Bluray.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:45] [sub]   + Kill Bill: The Lost Chapter - Yuki's Revenge (2025) → Kill.Bill.The.Lost.Chapter.Yukis.Revenge.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:46] [sub]   + Muzzle: City of Wolves (2025) → Muzzle.City.Of.Wolves.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:46] [sub]   + Jay Kelly (2025) → Jay.Kelly.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:47] [sub]   + Lone Samurai (2025) → Lone.Samurai.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:48] [sub]   + Turn Up the Sun! (2025) → Pose.2025.1080p.WEB.DL.6ch.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:48] [sub]   + Sky Fighters (2005) → Sky.Fighters.2005.1080p.Bluray_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:49] [sub]   + Oh. What. Fun. (2025) → Oh.What.Fun.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:49] [sub]   + The Waiting City (2009) → The.Waiting.City.2009.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:50] [sub]   + Sentimental Value (2025) → Sentimental.Value.2025.1080p.WEB.DL_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:51] [sub]   + Miroirs No.3 (2025) → Mirrors.No.3.2025.WEB.DL.720p.Psama_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:51] [sub]   + Trap House (2025) → Trap.House.2025.1080p.WEB.DL.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:52] [sub]   + Affinity (2017) → Affinity.2025.1080p.WEB.DL.Yify_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:53] [sub]   + Troll 2 (2025) → Troll.2.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:53] [sub]   + The Age of Disclosure (2025) → The.Age.Of.Disclosure.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:54] [sub]   + Tron: Ares (2025) → Tron.Ares.2025.1080p.WEB.DL.6ch.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:54] [sub]   + A Dry White Season (1989) → A.Dry.White.Season.1989.1080p.Bluray.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:55] [sub]   + Left-Handed Girl (2025) → Left.Handed.Girl.2025.1080p.WEB.DL.Yify.Softsub_www.TalaFilm.Top.vtt
+[2026-07-09T22:49:56] [sub]   + Jolly LLB 3 (2025) → Jolly.Llb.3.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:49:56] [sub]   + Kingsman: The Golden Circle (2017) → Kingsman.The.Golden.Circle.2017.1080p.6ch.Mkvcage_www.Talafilm.Top.vtt
+[2026-07-09T22:49:57] [sub]   + The Shadow's Edge (2025) → The.Shadows.Edge.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:49:58] [sub]   + Bull Run (2024) → Bull.Run.2024.1080p.WEB.DL.6ch.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:49:58] [sub]   + Breed of Greed (2025) → Breed.Of.Greed.2025.1080p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:49:59] [sub]   + Mr. Skeffington (1944) → Mr.Skeffington.1944.1080p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:49:59] [sub]   + Anaconda (1997) → Anaconda.1997.1080p.Bluray.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:00] [sub]   + The Hopeful (2024) → The.Hopeful.2024.720p.WEBRip_www.Talafilm.Top.vtt
+[2026-07-09T22:50:01] [sub]   + The Grove (2025) → The.Grove.2025.720p.WEBRIP.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:50:01] [sub]   + Deaf (2025) → Deaf.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:50:02] [sub]   + Melt My Heart This Christmas (2025) → Melt.My.Heart.This.Christmas.2025.720p.WebRip.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:50:02] [sub]   + Air () → Air.2023.1080p.WEBRIP.YTS_www.Talafilm.Top.vtt
+[2026-07-09T22:50:03] [sub]   + Wildcat (2025) → Wildcat.2025.1080p.Webrip.Aac.Yts_www.Talafilm.Top.vtt
+[2026-07-09T22:50:04] [sub]   + The Dam (2025) → The.Dam.2025.720p.WEBRIP_www.Talafilm.Top.vtt
+[2026-07-09T22:50:04] [sub]   + The Bad Guys: Little Lies and Alibis (2025) → The.Bad.Guys.Little.Lies.And.Alibis.2025.1080p.Bluray_www.Talafilm.Top.vtt
+[2026-07-09T22:50:05] [sub]   + Jingle Bell Heist (2025) → Jingle.Bell.Heist.2025.720p.WEBRIP_www.Talafilm.Top.vtt
+[2026-07-09T22:50:05] [sub]   + Being Eddie (2025) → Being.Eddie.2025.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:06] [sub]   + Blue Moon (2025) → Blue.Moon.2025.1080p.WEB.DL.6ch.Pahe_www.Talafilm.Top.vtt
+[2026-07-09T22:50:07] [sub]   + Regretting You (2025) → Regretting.You.2025.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:07] [sub]   + Orwell (2025) → Orwell.2.2.5.2025.1080p.WEB.DL_www.Talafilm.Top.vtt
+[2026-07-09T22:50:08] [sub]   + Secret Ceremony (1968) → Secret.Ceremony.1968.1080p.Bluray.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:09] [sub]   + Silent Hill (2006) → Silent.Hill.2006.1080p.Bluray_www.Talafilm.Top.vtt
+[2026-07-09T22:50:09] [sub]   + Marlowe (1969) → Marlowe.1969.1080p.WEB.DL.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:09] [sub]   Progress: 400/3000 checked, 399 found
+[2026-07-09T22:50:10] [sub]   + A Merry Little Ex-Mas (2025) → A.Merry.Little.Ex.Mas.2025.1080p.WEB.DL.6ch.Yify_www.Talafilm.Top.vtt
+[2026-07-09T22:50:11] [sub]   + Dream Eater (2025) → Dream.Eater.2025.1080p.WEB.DL.6ch.Yify.Farsi.Sub_www.Talafilm.Top.vtt
+[2026-07-09T22:50:12] [sub]   + Nuts (1987) → Nuts.1987.1080p.WEB.DL.Rarbg_www.Talafilm.Top.vtt
+[2026-07-09T22:50:12] [sub]   + Murder at the Embassy (2025) → Murder.at.the.Embassy.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:13] [sub]   + Anniversary (2025) → Anniversary.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:13] [sub]   + Train Dreams (2025) → Train.Dreams.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:14] [sub]   + Altered (2025) → Altered.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:15] [sub]   + The Family Plan 2 (2025) → The.Family.Plan.2.2025.1080p.WEB-DL.6CH.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:15] [sub]   + Plainclothes (2025) → Plainclothes.2025.1080p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:16] [sub]   + No Other Choice (2025) → No.Other.Choice.2025.1080p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:17] [sub]   + After the Hunt (2025) → After.the.Hunt.2025.1080p.WEB-DL.6CH.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:17] [sub]   + Urchin (2025) → Urchin.2025.1080p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:18] [sub]   + Trapezium (2024) → Trapezium.2024.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:19] [sub]   + Legend (2015) → Legend.2015.1080p.BrRip.6CH.ShAaNiG._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:19] [sub]   + Stitch Head (2025) → Stitch.Head.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:20] [sub]   + Jalan Pulang (2025) → Jalan.Pulang.2025.720p.WEB-DL.Pahe.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:21] [sub]   + Violent Ends (2025) → Violent.Ends.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:21] [sub]   + The Roughneck (2025) → The.Roughneck.2025.720p.WEB-DL.Farsi.Dubbed._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:22] [sub]   + Shelby Oaks (2024) → Shelby.Oaks.2024.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:23] [sub]   + Deathstalker (2025) → Deathstalker.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:23] [sub]   + If I Had Legs I'd Kick You (2025) → If.I.Had.Legs.Id.Kick.You.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:24] [sub]   + Sendero (2024) → Dogs.on.the.Sendero.2024.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:25] [sub]   + Belén (2025) → Belen.2025.720p.WEB-DL.AAC.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:25] [sub]   + A Woman Scorned (2025) → A.Woman.Scorned.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:26] [sub]   + Nouvelle Vague (2025) → Nouvelle.Vague.2025.720p.WEB-DL.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:27] [sub]   + Johnny Belinda (1948) → Johnny.Belinda.1948.720p.WEBRip.YTS_www.TalaFIlm.Top.vtt
+[2026-07-09T22:50:27] [sub]   + Day of a Lion (2025) → Day.Of.A.Lion.2025.720p.BluRay.YTS_www.TalaFIlm.Top.vtt
+[2026-07-09T22:50:28] [sub]   + Exit Protocol (2025) → Exit.Protocol.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:28] [sub]   + Shark Terror (2025) → Shark.Terror.2025.720p.WEBRip.YTS_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:29] [sub]   + Tee Yai: Born to Be Bad (2025) → Tee.Yai.Born.to.Be.Bad.2025.720p.WEB-DL.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:30] [sub]   + In Your Dreams (2025) → In.Your.Dreams.2025.1080p.WEB-DL.6CH.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:30] [sub]   + One Battle After Another (2025) → One.Baattle.After.Another.2025.720p.WEB-DL.x264.pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:31] [sub]   + Him (2025) → Him.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:32] [sub]   + In Broad Daylight (2023) → In.Broad.Daylight.2023.720p.BluRay.YIFY.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:32] [sub]   + Kataomoi Sekai (2025) → Kataomoi.Sekai.2025.720p.WEB-DL.Farsi.Sub._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:33] [sub]   + Playdate (2025) → Playdate.2025.720p.WEB-DL.PaHe.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:34] [sub]   + Stelios (2024) → stelios.AKA.yparho.2024.720p.AMZN.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:34] [sub]   + Soul on Fire (2025) → Soul.on.Fire.2025.720p.WEB-DL.YIFY._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:35] [sub]   + Le secret de Khéops (2025) → Le.Secret.De.Kheops.2025.720p.BluRay.x264.AAC.YTS._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:36] [sub]   + Dead to Rights (2025) → Dead.to.Rights.2025.HC.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:36] [sub]   + Night of the Reaper (2025) → Night.Of.The.Reaper.2025.720p.WEB-DL.x264.AAC.YTS.Farsi.Dubbed_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:37] [sub]   + To Kill A Mongolian Horse (2024) → To.Kill.A.Mongolian.Horse.2024.720p.WEB-DL.x264.AAC.YTS.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:37] [sub]   + The Beldham (2024) → The.Beldham.2025.720p.AMZN.WEB-DL.x264.SoftSub_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:38] [sub]   + Kiss of the Spider Woman (2025) → Kiss.Of.The.Spider.Woman.2025.1080p.Bluray.Dd5.1.Pahe_www.TalaFilm.Top.vtt
+[2026-07-09T22:50:39] [sub]   + Roofman (2025) → Roofman.2025.720p.WEB-DL.PaHe._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:39] [sub]   + The Piano Accident (2025) → The.Piano.Accident.2025.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:40] [sub]   + 13 Days, 13 Nights (2025) → 13.Days.13.Nights.2025.720p.BluRay.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:41] [sub]   + Murderer Report (2025) → Murderer.Report.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:41] [sub]   + Red Sonja (2025) → Red.Sonja.2025.720p.BluRay.Pahe._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:42] [sub]   + Stone Cold Fox (2025) → Stone.Cold.Fox.2025.720p.WEBRip._www.TalaFilm.Top.vtt
+[2026-07-09T22:50:42] [sub]   + Milarepa (2024) → Milarepa.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt

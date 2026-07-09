@@ -1,53 +1,66 @@
 # FilmVault Auto-Update Pipeline
-# Runs every 6 hours on GitHub Actions (free for public repos)
-# Scrapes talafillm.sbs, enriches posters, rebuilds catalog, redeploys
+# Runs every 6 hours on GitHub Actions
+# Full pipeline: incremental scrape → gap find → subtitle hunt → poster enrich → commit
 
 name: Update FilmVault
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
-  workflow_dispatch:        # Manual trigger button
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape-and-deploy:
+  update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run scraper
-        run: python pipeline/scraper.py
-        env:
-          PYTHONUNBUFFERED: 1
-
-      - name: Enrich posters (OMDB)
-        run: python pipeline/poster_enhancer.py
-        env:
-          PYTHONUNBUFFERED: 1
-          OMDB_KEY: b0a0c7e0
-
-      - name: Count films
-        id: count
+      - name: Run scraper pipeline
         run: |
-          COUNT=$(python -c "import json; print(len(json.load(open('catalog.json'))))")
-          echo "total=$COUNT" >> "$GITHUB_OUTPUT"
-          echo "Total films in catalog: $COUNT"
+          echo "=== FilmVault Pipeline $(date -u) ==="
+          echo ""
+
+          # Step 1: Incremental scrape (new posts since last run)
+          echo "--- Step 1: Incremental scrape ---"
+          python pipeline/scraper.py || true
+          echo ""
+
+          # Step 2: Gap finder (scan older pages for missed posts)
+          echo "--- Step 2: Gap finder ---"
+          python pipeline/gap_finder.py || true
+          echo ""
+
+          # Step 3: Subtitle hunter (find subtitles for films without them)
+          echo "--- Step 3: Subtitle hunter ---"
+          python pipeline/subtitle_hunter.py || true
+          echo ""
+
+          # Step 4: Poster enricher (fill missing posters from OMDB)
+          echo "--- Step 4: Poster enricher ---"
+          python pipeline/poster_enhancer.py || true
+          echo ""
+
+          echo "=== Pipeline complete ==="
+          echo "Catalog size: $(du -h catalog.json | cut -f1)"
+          echo "Film count: $(python -c 'import json; print(len(json.load(open(\"catalog.json\"))))')"
 
       - name: Commit and push
         run: |
           git config user.name "FilmVault Bot"
-          git config user.email "bot@filmvault.app"
-          git add catalog.json pipeline.log
-          git diff --staged --quiet || git commit -m "Auto-update: ${{ steps.count.outputs.total }} films"
-          git push
+          git config user.email "bot@filmvault"
+          git add catalog.json pipeline_state.json pipeline.log
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            FILMS=$(python -c 'import json; print(len(json.load(open("catalog.json"))))')
+            git commit -m "Auto-update: $FILMS films [$(date -u +%Y-%m-%dT%H:%M)]"
+            git push
+          fi
