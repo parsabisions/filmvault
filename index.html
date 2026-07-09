@@ -1,61 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FilmVault</title>
-    <link rel="manifest" href="manifest.json">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
-        .carousel::-webkit-scrollbar { display: none; }
-        .card { scroll-snap-align: start; flex: 0 0 160px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0B0E">
+  <meta name="description" content="FilmVault — Your personal film archive">
+  <title>FilmVault</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-zinc-950 text-zinc-100">
-    <nav class="sticky top-0 bg-zinc-950/80 backdrop-blur-md p-4 border-b border-zinc-800 flex justify-between items-center z-50">
-        <h1 class="text-xl font-bold italic">FilmVault</h1>
-        <input type="search" id="search" placeholder="Search 22k films..." class="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 w-64 text-sm">
+<body>
+
+  <!-- Loading -->
+  <div id="loader" class="loader">
+    <p class="loader-text">Loading library</p>
+  </div>
+
+  <!-- App shell (hidden until data loads) -->
+  <div id="app" class="app is-hidden">
+
+    <!-- Header -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a href="/" class="logo" aria-label="FilmVault home">
+          Film<span class="logo-accent">Vault</span>
+        </a>
+
+        <div class="search-wrap" role="search">
+          <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+          <input type="search" id="search" class="search-input" placeholder="Search films" autocomplete="off" aria-label="Search films">
+          <kbd class="search-kbd" aria-hidden="true">/</kbd>
+        </div>
+      </div>
+    </header>
+
+    <!-- Filters -->
+    <nav class="filters" aria-label="Filters">
+      <div class="filter-chips">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="available">Available</button>
+        <button class="chip" data-filter="missing">Missing</button>
+        <button class="chip" data-filter="favorites">Favorites</button>
+      </div>
+      <div class="filter-selects">
+        <select id="genre-filter" class="select" aria-label="Filter by genre">
+          <option value="">All genres</option>
+        </select>
+        <select id="year-filter" class="select" aria-label="Filter by year">
+          <option value="">All years</option>
+          <option value="2020s">2020s</option>
+          <option value="2010s">2010s</option>
+          <option value="2000s">2000s</option>
+          <option value="1990s">1990s</option>
+          <option value="older">Before 1990</option>
+        </select>
+        <select id="sort-filter" class="select" aria-label="Sort by">
+          <option value="title">Title A–Z</option>
+          <option value="title_desc">Title Z–A</option>
+          <option value="year_desc">Newest first</option>
+          <option value="year">Oldest first</option>
+          <option value="rating">Top rated</option>
+        </select>
+      </div>
+      <p class="filter-count">
+        Showing <strong id="count-num">0</strong> of <strong id="total-num">0</strong>
+      </p>
     </nav>
-    
-    <main id="content" class="p-4 space-y-8"></main>
 
-    <script>
-        let films = [];
-        async function load() {
-            const res = await fetch('catalog.json');
-            films = await res.json();
-            render();
-        }
+    <!-- Grid -->
+    <main class="grid-area">
+      <div id="grid" class="grid" role="list"></div>
+      <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+      <div id="empty" class="empty is-hidden">
+        <p class="empty-title">No films found</p>
+        <p class="empty-sub">Try adjusting your filters or search</p>
+      </div>
+    </main>
 
-        function render() {
-            const content = document.getElementById('content');
-            const genres = [...new Set(films.map(f => f.genre).filter(Boolean))].slice(0, 5);
-            
-            content.innerHTML = genres.map(g => `
-                <section>
-                    <h2 class="text-lg font-semibold mb-3">${g}</h2>
-                    <div class="carousel gap-4">
-                        ${films.filter(f => f.genre === g).slice(0, 10).map(f => `
-                            <div class="card cursor-pointer group">
-                                <div class="w-full h-60 bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800 mb-2 group-hover:border-zinc-500 transition">
-                                    <img src="${f.poster}" loading="lazy" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="text-xs font-medium truncate">${f.title}</h3>
-                                <p class="text-[10px] text-zinc-500">${f.year}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                </section>
-            `).join('');
-        }
-        
-        load();
-        
-        // Register Service Worker for Offline PWA
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js');
-        }
-    </script>
+    <!-- Detail panel -->
+    <div id="overlay" class="overlay" aria-hidden="true"></div>
+    <aside id="panel" class="panel" role="dialog" aria-label="Film detail" aria-hidden="true">
+      <div id="panel-content" class="panel-content"></div>
+    </aside>
+
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
