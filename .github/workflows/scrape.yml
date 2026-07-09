@@ -1,0 +1,53 @@
+# FilmVault Auto-Update Pipeline
+# Runs every 6 hours on GitHub Actions (free for public repos)
+# Scrapes talafillm.sbs, enriches posters, rebuilds catalog, redeploys
+
+name: Update FilmVault
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:        # Manual trigger button
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: python pipeline/scraper.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Enrich posters (OMDB)
+        run: python pipeline/poster_enhancer.py
+        env:
+          PYTHONUNBUFFERED: 1
+          OMDB_KEY: b0a0c7e0
+
+      - name: Count films
+        id: count
+        run: |
+          COUNT=$(python -c "import json; print(len(json.load(open('catalog.json'))))")
+          echo "total=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Total films in catalog: $COUNT"
+
+      - name: Commit and push
+        run: |
+          git config user.name "FilmVault Bot"
+          git config user.email "bot@filmvault.app"
+          git add catalog.json pipeline.log
+          git diff --staged --quiet || git commit -m "Auto-update: ${{ steps.count.outputs.total }} films"
+          git push
