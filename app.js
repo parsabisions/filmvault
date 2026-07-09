@@ -28,7 +28,7 @@ const panel = $('#panel'), overlay = $('#overlay'), empty = $('#empty'), sentine
 const loader = $('#loader'), app = $('#app');
 const genreFilter = $('#genre-filter'), yearFilter = $('#year-filter'), sortFilter = $('#sort-filter');
 const playerModal = $('#player-modal'), playerVideo = $('#player-video'), playerTitle = $('#player-title');
-const playerQuality = $('#player-quality'), playerPlay = $('#player-play');
+const playerQuality = $('#player-quality'), playerSubs = $('#player-subs'), playerPlay = $('#player-play');
 const iconPlay = $('#icon-play'), iconPause = $('#icon-pause');
 const playerTime = $('#player-time'), playerSeek = $('#player-seek');
 const playerVol = $('#player-vol'), playerFullscreen = $('#player-fullscreen');
@@ -285,6 +285,21 @@ function openPlayer(globalIdx, specificUrl) {
     playerQuality.appendChild(opt);
   });
   playerQuality.value = bestIdx;
+
+  // Populate subtitle selector
+  playerSubs.innerHTML = '<option value="">No subtitles</option>';
+  var subLinks = film.links.filter(function (l) { return lnkType(l) === 'subtitle'; });
+  subLinks.forEach(function (link, i) {
+    var url = lnkUrl(link);
+    var fn = url.split('/').pop();
+    var lang = /Farsi|Persian|IR/i.test(fn) ? 'فارسی' : /English|EN/i.test(fn) ? 'English' : 'Sub ' + (i + 1);
+    var ext = fn.split('.').pop().toLowerCase();
+    var opt = document.createElement('option');
+    opt.value = url;
+    opt.textContent = lang + ' (.' + ext + ')';
+    playerSubs.appendChild(opt);
+  });
+
   loadVideoSource(lnkUrl(videoLinks[bestIdx]));
   playerTitle.textContent = film.title + (film.year ? ' (' + film.year + ')' : '');
   playerModal.classList.add('is-open');
@@ -484,6 +499,27 @@ playerQuality.addEventListener('change', () => {
     });
   }
 });
+
+// Subtitle change
+playerSubs.addEventListener('change', () => {
+  // Remove existing tracks
+  while (playerVideo.firstChild) {
+    if (playerVideo.firstChild.tagName === 'TRACK') playerVideo.removeChild(playerVideo.firstChild);
+    else break;
+  }
+  var url = playerSubs.value;
+  if (!url) return;
+  var track = document.createElement('track');
+  track.kind = 'subtitles';
+  track.src = url;
+  track.label = playerSubs.options[playerSubs.selectedIndex].textContent;
+  track.default = true;
+  playerVideo.appendChild(track);
+  // Enable the track
+  if (playerVideo.textTracks && playerVideo.textTracks.length > 0) {
+    playerVideo.textTracks[0].mode = 'showing';
+  }
+});
 playerFullscreen.addEventListener('click', () => {
   if (document.fullscreenElement) document.exitFullscreen().catch(function(){});
   else if (playerModal.requestFullscreen) playerModal.requestFullscreen().catch(function(){});
@@ -494,7 +530,7 @@ playerFullscreen.addEventListener('click', () => {
 document.addEventListener('keydown', e => {
   if (playerModal.classList.contains('is-open')) {
     if (e.key === 'Escape') { e.preventDefault(); closePlayer(); return; }
-    if (e.key === ' ' && document.activeElement !== playerQuality) { e.preventDefault(); togglePlayPause(); return; }
+    if (e.key === ' ' && document.activeElement !== playerQuality && document.activeElement !== playerSubs) { e.preventDefault(); togglePlayPause(); return; }
     if (e.key === 'ArrowLeft') { e.preventDefault(); playerVideo.currentTime = Math.max(0, playerVideo.currentTime - 10); return; }
     if (e.key === 'ArrowRight') { e.preventDefault(); playerVideo.currentTime = Math.min(playerVideo.duration || 0, playerVideo.currentTime + 10); return; }
     if (e.key === 'ArrowUp') { e.preventDefault(); var v = Math.min(100, parseInt(playerVol.value) + 10); playerVol.value = v; playerVideo.volume = v / 100; return; }
