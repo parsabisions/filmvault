@@ -909,6 +909,7 @@ ul, ol { list-style: none; }
   transition: opacity 180ms var(--ease);
   z-index: 1;
   border-radius: var(--radius-md);
+  pointer-events: none;
 }
 .card:hover .play-overlay { opacity: 1; }
 .play-circle {
@@ -918,6 +919,8 @@ ul, ol { list-style: none; }
   align-items: center;
   justify-content: center;
   border: 2px solid rgba(255, 255, 255, 0.85);
+  pointer-events: auto;
+  cursor: pointer;
   border-radius: 50%;
   color: #fff;
   transition: transform 180ms var(--ease), background 180ms var(--ease);
