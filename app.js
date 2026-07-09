@@ -15,7 +15,7 @@ const PALETTES = [
 ];
 
 // ── State ────────────────────────────────────────────
-let allFilms = [], filtered = [], favorites = new Set();
+let allFilms = [], filtered = [], favorites = new Set(), edits = {};
 let currentFilter = 'all', currentGenre = '', currentYear = '', currentSort = 'title', searchQuery = '';
 let renderedCount = 0;
 const BATCH = 80;
@@ -61,8 +61,15 @@ async function init() {
 // ── State persistence ────────────────────────────────
 function loadState() {
   try { favorites = new Set(JSON.parse(localStorage.getItem('fv_favs') || '[]')); } catch { favorites = new Set(); }
+  try { edits = JSON.parse(localStorage.getItem('fv_edits') || '{}'); } catch { edits = {}; }
 }
 function saveFavs() { localStorage.setItem('fv_favs', JSON.stringify([...favorites])); }
+function saveEdits() { localStorage.setItem('fv_edits', JSON.stringify(edits)); }
+function applyEdits(film, idx) {
+  var e = edits[idx];
+  if (!e) return film;
+  return Object.assign({}, film, { title: e.title || film.title, year: e.year || film.year, rating: e.rating || film.rating, genre: e.genre || film.genre });
+}
 
 // ── Genre filter population ──────────────────────────
 function populateGenreFilter() {
@@ -167,8 +174,9 @@ function setupObserver() {
 
 // ── Detail panel ─────────────────────────────────────
 function openDetail(globalIdx) {
-  const film = allFilms[globalIdx];
+  let film = allFilms[globalIdx];
   if (!film) return;
+  film = applyEdits(film, globalIdx);
   const palette = hashPalette(film.title);
   const [bg, fg] = palette;
   const words = film.title.split(/\s+/);
@@ -221,14 +229,22 @@ function openDetail(globalIdx) {
     : '';
 
   $('#panel-content').innerHTML =
-    '<div class="panel-top"><button class="panel-close" aria-label="Close detail"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>' +
+    '<div class="panel-top"><button class="panel-edit" data-edit="' + globalIdx + '">Edit</button><button class="panel-close" aria-label="Close detail"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>' +
     '<div class="panel-poster" style="background:' + bg + '">' + posterDetail + '</div>' +
     '<div class="panel-body"><h2 class="panel-title">' + escHtml(film.title) + '</h2>' +
     '<div class="panel-meta">' + metaParts.join('') + '</div>' + watchHtml +
     '<div class="panel-dl"><h3>Downloads</h3>' + downloadsHtml + subsHtml + '</div>' +
     '<button class="fav-btn' + (isFav ? ' is-active' : '') + '" data-idx="' + globalIdx + '">' +
     '<svg viewBox="0 0 24 24" width="16" height="16" fill="' + (isFav ? 'currentColor' : 'none') +
-    '" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78a5.5 5.5 0 0 0 0-7.78z"/></svg> ' + (isFav ? 'Favorited' : 'Favorite') + '</button></div>';
+    '" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78a5.5 5.5 0 0 0 0-7.78z"/></svg> ' + (isFav ? 'Favorited' : 'Favorite') + '</button>' +
+    '<div class="edit-form" id="editForm">' +
+    '<div class="edit-row"><label>Title</label><input class="edit-input" id="edTitle" type="text" value="' + escHtml(film.title) + '"></div>' +
+    '<div class="edit-row"><label>Year</label><input class="edit-input" id="edYear" type="text" value="' + escHtml(film.year || '') + '"></div>' +
+    '<div class="edit-row"><label>Rating</label><input class="edit-input" id="edRating" type="text" value="' + escHtml(film.rating || '') + '"></div>' +
+    '<div class="edit-row"><label>Genre</label><input class="edit-input" id="edGenre" type="text" value="' + escHtml(film.genre || '') + '"></div>' +
+    '<div class="edit-actions"><button class="edit-save" id="edSave">Save</button><button class="edit-cancel" id="edCancel">Cancel</button></div>' +
+    '<div class="saved-msg" id="edMsg" style="display:none">Saved!</div>' +
+    '</div></div>';
 
   overlay.classList.add('is-open');
   panel.classList.add('is-open');
@@ -370,6 +386,48 @@ overlay.addEventListener('click', closeDetail);
 panel.addEventListener('click', e => {
   if (e.target.closest('.panel-close')) closeDetail();
   if (e.target.closest('.fav-btn')) toggleFavorite(parseInt(e.target.closest('.fav-btn').dataset.idx));
+  if (e.target.closest('.panel-edit')) {
+    var ef = document.getElementById('editForm');
+    if (ef) ef.style.display = ef.style.display === 'none' || !ef.style.display ? 'block' : 'none';
+  }
+  if (e.target.closest('.edit-save')) {
+    var idx = parseInt(e.target.closest('.edit-save').closest('[data-edit]')?.dataset.edit || e.target.closest('.fav-btn')?.dataset.idx);
+    // Get the globalIdx from the panel
+    var edBtn = panel.querySelector('.panel-edit');
+    if (edBtn) idx = parseInt(edBtn.dataset.edit);
+    edits[idx] = {
+      title: document.getElementById('edTitle')?.value || '',
+      year: document.getElementById('edYear')?.value || '',
+      rating: document.getElementById('edRating')?.value || '',
+      genre: document.getElementById('edGenre')?.value || ''
+    };
+    saveEdits();
+    // Apply edits to the film
+    var film = allFilms[idx];
+    if (film) {
+      var e = edits[idx];
+      if (e.title) film.title = e.title;
+      if (e.year) film.year = e.year;
+      if (e.rating) film.rating = e.rating;
+      if (e.genre) film.genre = e.genre;
+    }
+    // Show saved message
+    var msg = document.getElementById('edMsg');
+    if (msg) { msg.style.display = 'block'; setTimeout(() => msg.style.display = 'none', 2000); }
+    // Update the panel title
+    var titleEl = panel.querySelector('.panel-title');
+    if (titleEl && film) titleEl.textContent = film.title + (film.year ? ' (' + film.year + ')' : '');
+    // Re-render the grid card
+    var card = grid.querySelector('.card[data-idx="' + idx + '"]');
+    if (card) {
+      var titleDiv = card.querySelector('.card-title');
+      if (titleDiv) titleDiv.textContent = film.title;
+    }
+  }
+  if (e.target.closest('.edit-cancel')) {
+    var ef = document.getElementById('editForm');
+    if (ef) ef.style.display = 'none';
+  }
 });
 
 // Watch buttons (delegated)
