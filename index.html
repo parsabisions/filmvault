@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmVault</title>
+    <link rel="manifest" href="manifest.json">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
+        .carousel::-webkit-scrollbar { display: none; }
+        .card { scroll-snap-align: start; flex: 0 0 160px; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+    <nav class="sticky top-0 bg-zinc-950/80 backdrop-blur-md p-4 border-b border-zinc-800 flex justify-between items-center z-50">
+        <h1 class="text-xl font-bold italic">FilmVault</h1>
+        <input type="search" id="search" placeholder="Search 22k films..." class="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 w-64 text-sm">
+    </nav>
+    
+    <main id="content" class="p-4 space-y-8"></main>
+
+    <script>
+        let films = [];
+        async function load() {
+            const res = await fetch('catalog.json');
+            films = await res.json();
+            render();
+        }
+
+        function render() {
+            const content = document.getElementById('content');
+            const genres = [...new Set(films.map(f => f.genre).filter(Boolean))].slice(0, 5);
+            
+            content.innerHTML = genres.map(g => `
+                <section>
+                    <h2 class="text-lg font-semibold mb-3">${g}</h2>
+                    <div class="carousel gap-4">
+                        ${films.filter(f => f.genre === g).slice(0, 10).map(f => `
+                            <div class="card cursor-pointer group">
+                                <div class="w-full h-60 bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800 mb-2 group-hover:border-zinc-500 transition">
+                                    <img src="${f.poster}" loading="lazy" class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="text-xs font-medium truncate">${f.title}</h3>
+                                <p class="text-[10px] text-zinc-500">${f.year}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `).join('');
+        }
+        
+        load();
+        
+        // Register Service Worker for Offline PWA
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
