@@ -64,6 +64,9 @@ ul, ol { list-style: none; }
 .hide-scroll::-webkit-scrollbar { display: none; }
 .hide-scroll { scrollbar-width: none; }
 
+/* ── Utility ────────────────────────────────────────── */
+.hidden { display: none !important; }
+
 /* ── Loader ─────────────────────────────────────────── */
 .loader {
   display: flex;
