@@ -502,25 +502,7 @@ playerQuality.addEventListener('change', () => {
 });
 
 // Subtitle change
-playerSubs.addEventListener('change', () => {
-  // Remove existing tracks
-  while (playerVideo.firstChild) {
-    if (playerVideo.firstChild.tagName === 'TRACK') playerVideo.removeChild(playerVideo.firstChild);
-    else break;
-  }
-  var url = playerSubs.value;
-  if (!url) return;
-  var track = document.createElement('track');
-  track.kind = 'subtitles';
-  track.src = url;
-  track.label = playerSubs.options[playerSubs.selectedIndex].textContent;
-  track.default = true;
-  playerVideo.appendChild(track);
-  // Enable the track
-  if (playerVideo.textTracks && playerVideo.textTracks.length > 0) {
-    playerVideo.textTracks[0].mode = 'showing';
-  }
-});
+
 playerFullscreen.addEventListener('click', () => {
   if (document.fullscreenElement) document.exitFullscreen().catch(function(){});
   else if (playerModal.requestFullscreen) playerModal.requestFullscreen().catch(function(){});
