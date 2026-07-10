@@ -922,7 +922,6 @@ ul, ol { list-style: none; }
   transition: opacity 180ms var(--ease);
   z-index: 1;
   border-radius: var(--radius-md);
-  pointer-events: none;
 }
 .card:hover .play-overlay { opacity: 1; }
 .play-circle {
