@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 """
 FilmVault Gap Finder
-Discovers films that exist on sources but aren't in our catalog yet.
-Methods:
-1. Paginate ALL talafillm.sbs posts (pages we haven't scraped)
-2. Probe tinyzmoviez.ir CDN for new year/title combos
-3. Cross-check against catalog to find gaps
+Discovers films that exist on talafillm.sbs but aren't in our catalog yet.
 """
 
 import json
@@ -21,7 +17,6 @@ WP_API = "https://talafillm.sbs/wp-json/wp/v2/posts"
 CATALOG_PATH = os.path.join(os.path.dirname(__file__), "..", "catalog.json")
 STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "pipeline_state.json")
 LOG_PATH = os.path.join(os.path.dirname(__file__), "..", "pipeline.log")
-MAX_CDN_PROBES = 500  # Max CDN directory probes per run
 
 
 def log(msg):
@@ -54,50 +49,16 @@ def wp_get(url, retries=2):
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
                 return data, dict(resp.headers)
-        except Exception as e:
+        except Exception:
             time.sleep(1)
     return None, {}
 
 
-def dir_exists(url):
-    """Check if a CDN directory exists."""
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "FilmVault/2.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return resp.status < 400
-    except urllib.error.HTTPError as e:
-        return e.code < 500  # 403 still means it exists
-    except:
-        return False
-
-
-def scan_cdn_for_year(year, known_titles, catalog_keys):
-    """Probe tinyzmoviez.ir for movies in a given year."""
-    new_films = []
-    # Generate probe URLs from known titles — we can't enumerate all titles,
-    # but we can check if titles from other years exist in this year too
-    # Also probe common patterns
-
-    base_urls = [
-        f"https://dl5.tinyzmoviez.ir/files_3/Pakhsh.Online.Film/{year}/",
-        f"https://dl5.tinyzmoviez.ir/files_3/New.Film/{year}/",
-    ]
-
-    # Check if the year directory itself exists
-    for base in base_urls:
-        if not dir_exists(base):
-            continue
-
-        # We can't enumerate without wordlists, but we CAN check
-        # titles we know from other sources (simbaios, berlin, etc.)
-        for title_slug in known_titles[:MAX_CDN_PROBES]:
-            probe = base + title_slug + "/"
-            if dir_exists(probe):
-                # Found a directory — but we might not have a proper name
-                # Just log it for now; the main scraper will pick it up
-                pass
-
-    return new_films
+def save_catalog(catalog):
+    tmp = CATALOG_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, CATALOG_PATH)
 
 
 def main():
@@ -122,14 +83,7 @@ def main():
         with open(STATE_PATH, "r", encoding="utf-8") as f:
             state = json.load(f)
 
-    # Method 1: Scan ALL pages of talafillm.sbs
-    # We can scan pages we haven't covered yet by checking each page
-    # The main scraper handles this via incremental ID tracking,
-    # but gap_finder can do a broader scan for very old posts
-    log("Method 1: Checking talafillm.sbs for older posts...")
-
-    # Check pages from the end (older posts) that the incremental scraper
-    # might have missed
+    # Scan pages from the end (older posts)
     scan_start_page = max(1, state.get("gap_scan_page", 200))
     pages_per_run = 50
     new_count = 0
@@ -148,11 +102,11 @@ def main():
             year = str(acf.get("release_date", "") or acf.get("po_year", "") or "")
             if not year:
                 date = post.get("date", "")
-                if date: year = date[:4]
+                if date:
+                    year = date[:4]
 
             key = normalize_title(title) + "|" + year
             if key not in existing_keys:
-                # New film found! Extract it
                 sys.path.insert(0, os.path.dirname(__file__))
                 from scraper import extract_post
                 film = extract_post(post)
@@ -163,14 +117,15 @@ def main():
 
         time.sleep(0.5)
 
-    # Save updated scan page
+    # Save state atomically
     state["gap_scan_page"] = scan_start_page + pages_per_run
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
+    tmp = STATE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
+    os.replace(tmp, STATE_PATH)
 
     if new_count > 0:
-        with open(CATALOG_PATH, "w", encoding="utf-8") as f:
-            json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+        save_catalog(catalog)
 
     log(f"Found {new_count} new films. Catalog: {len(catalog)} total")
 

@@ -1,10 +1,11 @@
-const CACHE_NAME = 'filmvault-v2';
+const CACHE_NAME = 'filmvault-v3';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
-  './manifest.json'
+  './manifest.json',
+  './catalog_index.json'
 ];
 
 // Install: cache static assets
@@ -12,9 +13,10 @@ self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll(STATIC_ASSETS);
+    }).then(function () {
+      return self.skipWaiting();
     })
   );
-  self.skipWaiting();
 });
 
 // Activate: clean old caches
@@ -34,8 +36,8 @@ self.addEventListener('activate', function (e) {
 self.addEventListener('fetch', function (e) {
   const url = new URL(e.request.url);
 
-  // Network-first for catalog data (so updates propagate)
-  if (url.pathname.endsWith('catalog.json')) {
+  // Network-first for catalog data (chunks + index)
+  if (url.pathname.endsWith('catalog.json') || url.pathname.match(/catalog_(index|\d+)\.json$/)) {
     e.respondWith(
       fetch(e.request)
         .then(function (res) {

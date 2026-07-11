@@ -91,8 +91,10 @@ def main():
         time.sleep(0.15)  # Stay under 10 req/sec OMDB limit
 
     if updated > 0:
-        with open(CATALOG_PATH, "w", encoding="utf-8") as f:
+        tmp = CATALOG_PATH + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+        os.replace(tmp, CATALOG_PATH)
         log(f"Updated {updated} posters. Catalog saved.")
     else:
         log("No new posters found this run.")

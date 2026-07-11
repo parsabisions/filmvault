@@ -72,7 +72,7 @@ def extract_links(acf):
         raw = acf.get(field, [])
         if isinstance(raw, str):
             try: raw = json.loads(raw)
-            except: continue
+            except Exception: continue
         if not isinstance(raw, list): continue
         link_type = "original" if "original" in field else "dubbed"
         for item in raw:
@@ -88,7 +88,7 @@ def extract_links(acf):
         raw = acf.get(field, [])
         if isinstance(raw, str):
             try: raw = json.loads(raw)
-            except: continue
+            except Exception: continue
         if not isinstance(raw, list): continue
         for item in raw:
             if not isinstance(item, dict): continue
@@ -198,8 +198,10 @@ def load_state():
 
 
 def save_state(state):
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
+    tmp = STATE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
+    os.replace(tmp, STATE_PATH)
 
 
 def main():
@@ -317,9 +319,11 @@ def main():
     )]
     cleaned = before - len(catalog)
 
-    # Save
-    with open(CATALOG_PATH, "w", encoding="utf-8") as f:
+    # Save atomically
+    tmp = CATALOG_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, CATALOG_PATH)
 
     # Update state
     state["total_runs"] += 1

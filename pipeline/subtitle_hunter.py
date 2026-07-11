@@ -14,6 +14,7 @@ import urllib.request
 from datetime import datetime
 
 CATALOG_PATH = os.path.join(os.path.dirname(__file__), "..", "catalog.json")
+STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "pipeline_state.json")
 LOG_PATH = os.path.join(os.path.dirname(__file__), "..", "pipeline.log")
 MAX_CHECKS = 3000
 
@@ -64,10 +65,31 @@ def url_exists(url, timeout=8):
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "FilmVault/2.0"})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return 200 <= resp.status < 400
-    except urllib.error.HTTPError as e:
+    except urllib.error.HTTPError:
         return False
-    except:
+    except Exception:
         return False
+
+
+def save_catalog(catalog):
+    tmp = CATALOG_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, CATALOG_PATH)
+
+
+def load_state():
+    if os.path.exists(STATE_PATH):
+        with open(STATE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_state(state):
+    tmp = STATE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+    os.replace(tmp, STATE_PATH)
 
 
 def main():
@@ -95,10 +117,17 @@ def main():
         log("All films with video links have subtitles.")
         return
 
+    # Resume from last checked index
+    state = load_state()
+    start_idx = state.get("sub_last_checked", 0)
+    if start_idx > 0:
+        log(f"Resuming from index {start_idx}")
+
     checked = 0
     found = 0
+    last_checked = start_idx
 
-    for idx in needs_sub[:MAX_CHECKS]:
+    for idx in needs_sub[start_idx:start_idx + MAX_CHECKS]:
         film = catalog[idx]
         videos = get_video_links(film)
         if not videos:
@@ -120,16 +149,19 @@ def main():
                 break
 
         checked += 1
+        last_checked = start_idx + checked
         if checked % 200 == 0:
-            log(f"  Progress: {checked}/{min(len(needs_sub), MAX_CHECKS)} checked, {found} found")
+            log(f"  Progress: {checked}/{min(len(needs_sub) - start_idx, MAX_CHECKS)} checked, {found} found")
             if found > 0:
-                with open(CATALOG_PATH, "w", encoding="utf-8") as f:
-                    json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+                save_catalog(catalog)
+                state["sub_last_checked"] = last_checked
+                save_state(state)
         time.sleep(0.02)
 
     if found > 0:
-        with open(CATALOG_PATH, "w", encoding="utf-8") as f:
-            json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
+        save_catalog(catalog)
+        state["sub_last_checked"] = last_checked
+        save_state(state)
         log(f"Done: {found} subtitles found across {checked} films.")
     else:
         log(f"No new subtitles found across {checked} films.")

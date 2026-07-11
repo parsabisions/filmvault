@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
 
@@ -18,6 +22,11 @@
   <div id="loader" class="loader">
     <p class="loader-text">Loading library</p>
   </div>
+  <noscript>
+    <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;color:#8A8782;font-family:system-ui,sans-serif;text-align:center;padding:24px">
+      <p>FilmVault requires JavaScript to run.</p>
+    </div>
+  </noscript>
 
   <!-- App shell (hidden until data loads) -->
   <div id="app" class="app is-hidden">
@@ -25,9 +34,9 @@
     <!-- Header -->
     <header class="topbar">
       <div class="topbar-inner">
-        <a href="/" class="logo" aria-label="FilmVault home">
-          Film<span class="logo-accent">Vault</span>
-        </a>
+        <h1 class="logo" aria-label="FilmVault home">
+          <a href="/" class="logo">Film<span class="logo-accent">Vault</span></a>
+        </h1>
 
         <div class="search-wrap" role="search">
           <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -43,10 +52,14 @@
     <!-- Filters -->
     <nav class="filters" aria-label="Filters">
       <div class="filter-chips">
-        <button class="chip is-active" data-filter="all">All</button>
-        <button class="chip" data-filter="available">Available</button>
-        <button class="chip" data-filter="missing">Missing</button>
-        <button class="chip" data-filter="favorites">Favorites</button>
+        <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="available" aria-pressed="false">Available</button>
+        <button class="chip" data-filter="missing" aria-pressed="false">Missing</button>
+        <button class="chip" data-filter="favorites" aria-pressed="false">Favorites</button>
+        <button class="chip" data-filter="stats" aria-pressed="false">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
+          Stats
+        </button>
       </div>
       <div class="filter-selects">
         <select id="genre-filter" class="select" aria-label="Filter by genre">
@@ -75,6 +88,10 @@
 
     <!-- Grid -->
     <main class="grid-area">
+      <!-- Stats Dashboard -->
+      <div id="stats-panel" class="stats-panel is-hidden">
+        <div class="stats-grid" id="stats-content"></div>
+      </div>
       <div id="grid" class="grid" role="list"></div>
       <div id="sentinel" class="sentinel" aria-hidden="true"></div>
       <div id="empty" class="empty is-hidden">
@@ -85,7 +102,7 @@
 
     <!-- Detail panel -->
     <div id="overlay" class="overlay" aria-hidden="true"></div>
-    <aside id="panel" class="panel" role="dialog" aria-label="Film detail" aria-hidden="true">
+    <aside id="panel" class="panel" role="dialog" aria-modal="true" aria-label="Film detail" aria-hidden="true">
       <div id="panel-content" class="panel-content"></div>
     </aside>
 
