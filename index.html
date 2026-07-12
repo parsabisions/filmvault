@@ -20,7 +20,10 @@
 
   <!-- Loading -->
   <div id="loader" class="loader">
-    <p class="loader-text">Loading library</p>
+    <div class="loader-content">
+      <p class="loader-brand">Film<span class="logo-accent">Vault</span></p>
+      <p class="loader-text" id="loader-status">Opening vault</p>
+    </div>
   </div>
   <noscript>
     <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;color:#8A8782;font-family:system-ui,sans-serif;text-align:center;padding:24px">
@@ -59,6 +62,10 @@
         <button class="chip" data-filter="stats" aria-pressed="false">
           <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
           Stats
+        </button>
+        <button class="chip filter-sheet-trigger" id="filter-sheet-trigger" aria-label="Open filters">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/></svg>
+          Filters
         </button>
       </div>
       <div class="filter-selects">
@@ -102,8 +109,8 @@
       <div id="grid" class="grid" role="list"></div>
       <div id="sentinel" class="sentinel" aria-hidden="true"></div>
       <div id="empty" class="empty is-hidden">
-        <p class="empty-title">No films found</p>
-        <p class="empty-sub">Try adjusting your filters or search</p>
+        <p class="empty-title" id="empty-title">No films found</p>
+        <p class="empty-sub" id="empty-sub">Try adjusting your filters or search</p>
       </div>
     </main>
 
@@ -144,6 +151,29 @@
           <button id="player-fullscreen" class="player-ctrl" aria-label="Fullscreen">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
           </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile filter sheet -->
+    <div id="filter-sheet" class="filter-sheet" aria-hidden="true">
+      <div class="filter-sheet-backdrop" id="filter-sheet-backdrop"></div>
+      <div class="filter-sheet-panel">
+        <div class="filter-sheet-header">
+          <span class="filter-sheet-title">Filters</span>
+          <button class="filter-sheet-close" id="filter-sheet-close" aria-label="Close filters">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="filter-sheet-body">
+          <label class="filter-sheet-label">Source</label>
+          <select id="sheet-source" class="select filter-sheet-select"><option value="">All sources</option><option value="rio">Rio</option><option value="netflix">Netflix</option><option value="giftmond">Giftmond</option><option value="berlin">Berlin</option></select>
+          <label class="filter-sheet-label">Genre</label>
+          <select id="sheet-genre" class="select filter-sheet-select"><option value="">All genres</option></select>
+          <label class="filter-sheet-label">Year</label>
+          <select id="sheet-year" class="select filter-sheet-select"><option value="">All years</option><option value="2020s">2020s</option><option value="2010s">2010s</option><option value="2000s">2000s</option><option value="1990s">1990s</option><option value="older">Before 1990</option></select>
+          <label class="filter-sheet-label">Sort</label>
+          <select id="sheet-sort" class="select filter-sheet-select"><option value="title">Title A–Z</option><option value="title_desc">Title Z–A</option><option value="year_desc">Newest first</option><option value="year">Oldest first</option><option value="rating">Top rated</option></select>
         </div>
       </div>
     </div>

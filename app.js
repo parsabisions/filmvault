@@ -6,13 +6,24 @@
  * detail panel, favorites, video player with quality selector, keyboard shortcuts.
  */
 
-// ── Palette for poster fallbacks ─────────────────────
-const PALETTES = [
-  ['#1a1520', '#8b5cf6'], ['#151a1c', '#06b6d4'],
-  ['#1a1715', '#f59e0b'], ['#151a15', '#10b981'],
-  ['#1a1518', '#ec4899'], ['#15161a', '#6366f1'],
-  ['#1a1815', '#f97316'], ['#17151a', '#a855f7'],
-];
+// ── Genre → color palette mapping ──────────────────────
+const GENRE_PALETTES = {
+  'Action': ['#1a1215', '#ef4444'], 'Adventure': ['#151a1c', '#06b6d4'],
+  'Animation': ['#1a1715', '#f59e0b'], 'Comedy': ['#1a1715', '#fbbf24'],
+  'Crime': ['#1a1215', '#dc2626'], 'Documentary': ['#151a15', '#10b981'],
+  'Drama': ['#15161a', '#6366f1'], 'Fantasy': ['#17151a', '#a855f7'],
+  'Horror': ['#1a1018', '#be185d'], 'Mystery': ['#151a1c', '#0891b2'],
+  'Romance': ['#1a1518', '#ec4899'], 'Sci-Fi': ['#151a1c', '#22d3ee'],
+  'Thriller': ['#1a1215', '#f97316'], 'War': ['#1a1515', '#78716c'],
+  'Western': ['#1a1715', '#d97706'],
+};
+
+// ── Source → color class mapping ──────────────────────
+const SOURCE_CLASSES = {
+  'netflix': 'source-netflix', 'rio': 'source-rio',
+  'giftmond': 'source-giftmond', 'berlin': 'source-berlin',
+  'netflix_match': 'source-netflix_match',
+};
 
 // ── State ────────────────────────────────────────────
 let allFilms = [], filtered = [], favorites = new Set(), edits = {};
@@ -51,22 +62,24 @@ function filmKey(film, idx) { return (film.title || '') + '|' + (film.year || ''
 // ── Init ─────────────────────────────────────────────
 async function init() {
   loadState();
+  const loaderStatus = document.getElementById('loader-status');
   try {
     const res = await fetch('catalog_index.json');
     if (!res.ok) throw new Error('No catalog index');
     catalogIndex = await res.json();
     totalFilms = catalogIndex.total;
     totalNum.textContent = totalFilms.toLocaleString();
+    if (loaderStatus) loaderStatus.textContent = totalFilms.toLocaleString() + ' films';
     await loadNextChunk();
   } catch (err) {
-    // Fallback: try loading single catalog.json
     try {
       const res = await fetch('catalog.json');
       if (!res.ok) throw new Error('Failed to load catalog');
       allFilms = await res.json();
       totalFilms = allFilms.length;
       totalNum.textContent = totalFilms.toLocaleString();
-      loadedChunks = -1; // signal: all loaded
+      if (loaderStatus) loaderStatus.textContent = totalFilms.toLocaleString() + ' films';
+      loadedChunks = -1;
     } catch (err2) {
       loader.innerHTML = '<p class="loader-text" style="color:var(--err)">Failed to load library</p>';
       return;
@@ -74,9 +87,14 @@ async function init() {
   }
   populateGenreFilter();
   applyFilters();
+  // Show stats on first load if no active filters/search
+  if (!searchQuery && currentFilter === 'all' && !currentGenre && !currentYear && !currentSource) {
+    showStats();
+  }
   loader.classList.add('hidden');
   app.classList.remove('is-hidden');
   setupObserver();
+  setupFilterSheet();
 }
 
 async function loadNextChunk() {
@@ -177,8 +195,16 @@ function applyFilters() {
   renderedCount = 0;
   grid.innerHTML = '';
   countNum.textContent = filtered.length.toLocaleString();
-  if (filtered.length === 0) { empty.classList.remove('is-hidden'); sentinel.classList.add('is-hidden'); }
-  else { empty.classList.add('is-hidden'); sentinel.classList.remove('is-hidden'); renderBatch(); }
+  if (filtered.length === 0) {
+    empty.classList.remove('is-hidden');
+    sentinel.classList.add('is-hidden');
+    updateEmptyState();
+  } else {
+    empty.classList.add('is-hidden');
+    sentinel.classList.remove('is-hidden');
+    showSkeletons();
+    renderBatch();
+  }
 }
 
 function sortFiltered() {
@@ -197,6 +223,11 @@ function sortFiltered() {
 
 // ── Rendering ────────────────────────────────────────
 function renderBatch() {
+  // Remove skeletons on first real render
+  if (renderedCount === 0) {
+    var skeletons = grid.querySelectorAll('.skeleton');
+    skeletons.forEach(function(s) { s.remove(); });
+  }
   const frag = document.createDocumentFragment();
   const end = Math.min(renderedCount + BATCH, filtered.length);
   for (let i = renderedCount; i < end; i++) frag.appendChild(createCard(filtered[i]));
@@ -208,7 +239,7 @@ function createCard(item) {
   const { film, idx, key } = item;
   const words = film.title.split(/\s+/);
   const initials = words.length >= 2 ? (words[0][0] + words[1][0]).toUpperCase() : film.title.substring(0, 2).toUpperCase();
-  const palette = hashPalette(film.title);
+  const palette = genrePalette(film.genre) || hashPalette(film.title);
   const [bg, fg] = palette;
   const isFav = favorites.has(key);
   const article = document.createElement('article');
@@ -225,15 +256,29 @@ function createCard(item) {
     ? '<button class="play-overlay" data-play="' + idx + '" aria-label="Watch ' + escHtml(film.title) + '"><span class="play-circle"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg></span></button>'
     : '';
 
+  // Search highlighting
+  var titleHtml = escHtml(film.title);
+  if (searchQuery) {
+    var re = new RegExp('(' + searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    titleHtml = titleHtml.replace(re, '<mark>$1</mark>');
+  }
+
+  // Source tag
+  var sourceHtml = '';
+  if (film.source) {
+    var srcClass = SOURCE_CLASSES[film.source] || 'source-default';
+    sourceHtml = '<span class="source-tag ' + srcClass + '">' + escHtml(film.source) + '</span>';
+  }
+
   article.innerHTML =
     '<button class="fav-toggle' + (isFav ? ' is-active' : '') + '" data-key="' + escHtml(key) + '" aria-label="Toggle favorite">' +
     '<svg viewBox="0 0 24 24" width="16" height="16" fill="' + (isFav ? 'currentColor' : 'none') +
     '" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78a5.5 5.5 0 0 0 0-7.78z"/></svg></button>' +
     '<div class="poster-wrap" style="background:' + bg + '">' + posterHtml + playHtml + '</div>' +
-    '<div class="card-body"><h3 class="card-title">' + escHtml(film.title) + '</h3>' +
+    '<div class="card-body"><h3 class="card-title">' + titleHtml + '</h3>' +
     '<div class="card-meta"><span>' + escHtml(film.year || '—') + '</span>' +
     (film.rating ? '<span>★ ' + escHtml(film.rating) + '</span>' : '') +
-    (film.source ? '<span class="source-tag">' + escHtml(film.source) + '</span>' : '') +
+    sourceHtml +
     '<span class="status-dot ' + (film.available ? 'dot-ok' : 'dot-err') + '"></span></div></div>';
   return article;
 }
@@ -275,19 +320,41 @@ function openDetail(idx) {
   const videoLinks = allLinks.filter(l => lnkType(l) !== 'subtitle');
   const subLinks = allLinks.filter(l => lnkType(l) === 'subtitle');
 
-  // Video download rows
-  let downloadsHtml = videoLinks.length > 0
-    ? videoLinks.map(link => {
-        const url = lnkUrl(link), q = lnkQ(link), lt = lnkType(link);
+  // Group video links by quality tier
+  const qualityGroups = {};
+  videoLinks.forEach(link => {
+    const q = lnkQ(link);
+    const tier = q === '1080' ? '1080p' : q === '720' ? '720p' : q === '480' ? '480p' : q + 'p';
+    if (!qualityGroups[tier]) qualityGroups[tier] = [];
+    qualityGroups[tier].push(link);
+  });
+  const tierOrder = ['2160p', '1080p', '720p', '480p'];
+  const sortedTiers = Object.keys(qualityGroups).sort((a, b) => {
+    var ai = tierOrder.indexOf(a), bi = tierOrder.indexOf(b);
+    if (ai === -1) ai = 99; if (bi === -1) bi = 99;
+    return ai - bi;
+  });
+
+  // Video download rows grouped by quality
+  let downloadsHtml = '';
+  if (sortedTiers.length > 0) {
+    downloadsHtml = sortedTiers.map(tier => {
+      var links = qualityGroups[tier];
+      var rows = links.map(link => {
+        const url = lnkUrl(link), lt = lnkType(link);
         const fn = url.split('/').pop();
         const isVid = /\.(mp4|mkv|avi|mov|webm)$/i.test(url);
         let act = '<div class="dl-actions">' +
           '<button class="copy-btn" data-url="' + escHtml(url) + '"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy</button>';
         if (isVid) act += '<button class="watch-link-btn" data-play="' + idx + '" data-url="' + escHtml(url) + '"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg> Watch</button>';
         else act += '<a href="' + escHtml(url) + '" target="_blank" rel="noopener" class="dl-btn">Download</a>';
-        return '<div class="dl-row"><div class="dl-info"><span class="dl-filename">' + escHtml(fn) + '</span><span class="dl-meta">' + escHtml(q) + 'p · ' + escHtml(lt) + '</span></div>' + act + '</div>';
-      }).join('')
-    : '<p style="font-size:12px;color:var(--text-3);padding:8px 0">No downloads available</p>';
+        return '<div class="dl-row"><div class="dl-info"><span class="dl-filename">' + escHtml(fn) + '</span><span class="dl-meta">' + escHtml(lt) + '</span></div>' + act + '</div>';
+      }).join('');
+      return '<div class="dl-tier"><h4 class="dl-tier-header">' + escHtml(tier) + ' <span class="dl-tier-count">(' + links.length + ')</span></h4>' + rows + '</div>';
+    }).join('');
+  } else {
+    downloadsHtml = '<p style="font-size:12px;color:var(--text-3);padding:8px 0">No downloads available</p>';
+  }
 
   // Subtitle rows
   let subsHtml = subLinks.length > 0
@@ -425,16 +492,17 @@ function toggleFavorite(key) {
 const statsPanel = $('#stats-panel'), statsContent = $('#stats-content');
 
 function showStats() {
-  if (allFilms.length === 0) return;
-  const total = allFilms.length;
-  const available = allFilms.filter(f => f.available).length;
+  if (filtered.length === 0 && allFilms.length === 0) return;
+  const data = filtered.length > 0 ? filtered.map(f => f.film) : allFilms;
+  const total = data.length;
+  const available = data.filter(f => f.available).length;
   const missing = total - available;
-  const ratings = allFilms.map(f => parseFloat(f.rating)).filter(r => r > 0);
+  const ratings = data.map(f => parseFloat(f.rating)).filter(r => r > 0);
   const avgRating = ratings.length ? (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1) : '—';
 
   // By decade
   const decades = {};
-  allFilms.forEach(f => {
+  data.forEach(f => {
     const y = parseInt(f.year) || 0;
     const d = y >= 2020 ? '2020s' : y >= 2010 ? '2010s' : y >= 2000 ? '2000s' : y >= 1990 ? '1990s' : 'Older';
     decades[d] = (decades[d] || 0) + 1;
@@ -443,13 +511,13 @@ function showStats() {
 
   // Top genres
   const genres = {};
-  allFilms.forEach(f => { if (f.genre) genres[f.genre] = (genres[f.genre] || 0) + 1; });
+  data.forEach(f => { if (f.genre) genres[f.genre] = (genres[f.genre] || 0) + 1; });
   const topGenres = Object.entries(genres).sort((a, b) => b[1] - a[1]).slice(0, 10);
   const maxGenre = topGenres.length ? topGenres[0][1] : 1;
 
   // By quality
   const quals = { '1080p': 0, '720p': 0, '480p': 0, 'Other': 0 };
-  allFilms.forEach(f => {
+  data.forEach(f => {
     if (!f.links) return;
     f.links.forEach(l => {
       const q = lnkQ(l);
@@ -461,8 +529,8 @@ function showStats() {
   });
   const maxQual = Math.max(...Object.values(quals), 1);
 
-  // Recently added (last 10 in catalog order)
-  const recent = allFilms.slice(-10).reverse();
+  const recent = data.slice(-10).reverse();
+  const scopeLabel = data.length === allFilms.length ? '' : '<div class="stats-sub" style="margin-top:4px;color:var(--accent)">Stats for ' + data.length.toLocaleString() + ' of ' + allFilms.length.toLocaleString() + ' films</div>';
 
   statsContent.innerHTML =
     '<div class="stats-card">' +
@@ -470,6 +538,7 @@ function showStats() {
       '<div class="stats-big-num">' + total.toLocaleString() + '</div>' +
       '<div class="stats-sub">' + available.toLocaleString() + ' available · ' + missing.toLocaleString() + ' missing</div>' +
       '<div class="stats-sub" style="margin-top:8px">Avg rating: ★ ' + avgRating + ' (' + ratings.length.toLocaleString() + ' rated)</div>' +
+      scopeLabel +
     '</div>' +
     '<div class="stats-card">' +
       '<div class="stats-card-title">By Decade</div>' +
@@ -515,11 +584,55 @@ function hideStats() {
 
 // ── Utilities ────────────────────────────────────────
 function hashPalette(str) {
-  let h = 0;
-  for (let i = 0; i < str.length; i++) h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+  var h = 0;
+  for (var i = 0; i < str.length; i++) h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+  var PALETTES = [
+    ['#1a1520', '#8b5cf6'], ['#151a1c', '#06b6d4'],
+    ['#1a1715', '#f59e0b'], ['#151a15', '#10b981'],
+    ['#1a1518', '#ec4899'], ['#15161a', '#6366f1'],
+    ['#1a1815', '#f97316'], ['#17151a', '#a855f7'],
+  ];
   return PALETTES[Math.abs(h) % PALETTES.length];
 }
-function escHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function genrePalette(genre) {
+  if (!genre) return null;
+  var first = genre.split(',')[0].trim();
+  return GENRE_PALETTES[first] || null;
+}
+function escHtml(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function showSkeletons() {
+  var count = Math.min(BATCH, filtered.length);
+  var frag = document.createDocumentFragment();
+  for (var i = 0; i < count; i++) {
+    var sk = document.createElement('div');
+    sk.className = 'skeleton';
+    sk.innerHTML = '<div class="skeleton-poster"></div><div class="skeleton-text skeleton-text-short"></div><div class="skeleton-meta"></div>';
+    frag.appendChild(sk);
+  }
+  grid.appendChild(frag);
+}
+
+function updateEmptyState() {
+  var titleEl = document.getElementById('empty-title');
+  var subEl = document.getElementById('empty-sub');
+  if (searchQuery) {
+    titleEl.textContent = 'No films match "' + searchQuery + '"';
+    subEl.textContent = 'Try a different search term';
+  } else if (currentSource) {
+    titleEl.textContent = 'No ' + currentSource + ' films found';
+    subEl.textContent = 'This source may not be indexed yet';
+  } else if (currentGenre) {
+    titleEl.textContent = 'No ' + currentGenre + ' films found';
+    subEl.textContent = 'Try a different genre';
+  } else if (currentFilter === 'favorites') {
+    titleEl.textContent = 'No favorites yet';
+    subEl.textContent = 'Tap the heart on any film to save it';
+  } else {
+    titleEl.textContent = 'No films found';
+    subEl.textContent = 'Try adjusting your filters or search';
+  }
+}
 
 // ── Event Listeners ──────────────────────────────────
 
@@ -688,6 +801,55 @@ document.addEventListener('keydown', e => {
   if (e.key === '/' && document.activeElement !== search && !e.ctrlKey && !e.metaKey) { e.preventDefault(); search.focus(); }
   if (e.key === 'Escape' && document.activeElement === search) { search.blur(); if (search.value) { search.value = ''; searchQuery = ''; applyFilters(); } }
 });
+
+// ── Filter Sheet (mobile) ────────────────────────────
+function setupFilterSheet() {
+  var sheet = document.getElementById('filter-sheet');
+  var trigger = document.getElementById('filter-sheet-trigger');
+  var closeBtn = document.getElementById('filter-sheet-close');
+  var backdrop = document.getElementById('filter-sheet-backdrop');
+  var sheetSource = document.getElementById('sheet-source');
+  var sheetGenre = document.getElementById('sheet-genre');
+  var sheetYear = document.getElementById('sheet-year');
+  var sheetSort = document.getElementById('sheet-sort');
+
+  // Sync sheet selects with current state
+  function syncSheet() {
+    sheetSource.value = currentSource;
+    sheetYear.value = currentYear;
+    sheetSort.value = currentSort;
+    // Sync genre options
+    var mainGenreOpts = genreFilter.options;
+    sheetGenre.innerHTML = '';
+    for (var i = 0; i < mainGenreOpts.length; i++) {
+      var opt = document.createElement('option');
+      opt.value = mainGenreOpts[i].value;
+      opt.textContent = mainGenreOpts[i].textContent;
+      sheetGenre.appendChild(opt);
+    }
+    sheetGenre.value = currentGenre;
+  }
+
+  function openSheet() { syncSheet(); sheet.classList.add('is-open'); sheet.setAttribute('aria-hidden', 'false'); }
+  function closeSheet() { sheet.classList.remove('is-open'); sheet.setAttribute('aria-hidden', 'true'); }
+
+  if (trigger) trigger.addEventListener('click', openSheet);
+  if (closeBtn) closeBtn.addEventListener('click', closeSheet);
+  if (backdrop) backdrop.addEventListener('click', closeSheet);
+
+  // Sync sheet → main filters
+  function syncToMain() {
+    currentSource = sheetSource.value; sourceFilter.value = currentSource;
+    currentGenre = sheetGenre.value; genreFilter.value = currentGenre;
+    currentYear = sheetYear.value; yearFilter.value = currentYear;
+    currentSort = sheetSort.value; sortFilter.value = currentSort;
+    applyFilters();
+    closeSheet();
+  }
+  [sheetSource, sheetGenre, sheetYear, sheetSort].forEach(function(sel) {
+    if (sel) sel.addEventListener('change', syncToMain);
+  });
+}
 
 // ── Service Worker ────────────────────────────────────
 if ('serviceWorker' in navigator) {
