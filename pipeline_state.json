@@ -1,5 +1,17 @@
 {
   "last_post_id": 246319,
   "total_runs": 2,
-  "total_added": 4011
+  "total_added": 4011,
+  "rio_integrated": true,
+  "rio_new_entries": 69,
+  "rio_matched": 662,
+  "rio_links_added": 28652,
+  "netflix_matched": 3487,
+  "netflix_enriched": 3031,
+  "netflix_new_entries": 5320,
+  "giftmond_integrated": true,
+  "giftmond_new": 78,
+  "giftmond_matched": 228,
+  "berlin_integrated": true,
+  "berlin_new": 2031
 }

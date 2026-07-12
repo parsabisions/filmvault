@@ -16,7 +16,7 @@ const PALETTES = [
 
 // ── State ────────────────────────────────────────────
 let allFilms = [], filtered = [], favorites = new Set(), edits = {};
-let currentFilter = 'all', currentGenre = '', currentYear = '', currentSort = 'title', searchQuery = '';
+let currentFilter = 'all', currentGenre = '', currentYear = '', currentSource = '', currentSort = 'title', searchQuery = '';
 let renderedCount = 0;
 const BATCH = 80;
 
@@ -32,7 +32,7 @@ const $$ = s => document.querySelectorAll(s);
 const grid = $('#grid'), search = $('#search'), countNum = $('#count-num'), totalNum = $('#total-num');
 const panel = $('#panel'), overlay = $('#overlay'), empty = $('#empty'), sentinel = $('#sentinel');
 const loader = $('#loader'), app = $('#app');
-const genreFilter = $('#genre-filter'), yearFilter = $('#year-filter'), sortFilter = $('#sort-filter');
+const genreFilter = $('#genre-filter'), yearFilter = $('#year-filter'), sortFilter = $('#sort-filter'), sourceFilter = $('#source-filter');
 const playerModal = $('#player-modal'), playerVideo = $('#player-video'), playerTitle = $('#player-title');
 const playerQuality = $('#player-quality'), playerPlay = $('#player-play');
 const iconPlay = $('#icon-play'), iconPause = $('#icon-pause');
@@ -169,6 +169,7 @@ function applyFilters() {
       if (currentYear === '1990s' && (y < 1990 || y >= 2000)) continue;
       if (currentYear === 'older' && y >= 1990) continue;
     }
+    if (currentSource && film.source !== currentSource) continue;
     if (q && film.title.toLowerCase().indexOf(q) === -1) continue;
     filtered.push({ film, idx, key });
   }
@@ -232,6 +233,7 @@ function createCard(item) {
     '<div class="card-body"><h3 class="card-title">' + escHtml(film.title) + '</h3>' +
     '<div class="card-meta"><span>' + escHtml(film.year || '—') + '</span>' +
     (film.rating ? '<span>★ ' + escHtml(film.rating) + '</span>' : '') +
+    (film.source ? '<span class="source-tag">' + escHtml(film.source) + '</span>' : '') +
     '<span class="status-dot ' + (film.available ? 'dot-ok' : 'dot-err') + '"></span></div></div>';
   return article;
 }
@@ -555,6 +557,7 @@ $$('.chip').forEach(chip => chip.addEventListener('click', () => { $$('.chip').f
 genreFilter.addEventListener('change', e => { currentGenre = e.target.value; applyFilters(); });
 yearFilter.addEventListener('change', e => { currentYear = e.target.value; applyFilters(); });
 sortFilter.addEventListener('change', e => { currentSort = e.target.value; applyFilters(); });
+sourceFilter.addEventListener('change', e => { currentSource = e.target.value; applyFilters(); });
 
 // Panel close + favorites + watch
 overlay.addEventListener('click', closeDetail);

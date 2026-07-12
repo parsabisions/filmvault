@@ -1364,3 +1364,76 @@
 [2026-07-09T22:50:41] [sub]   + Red Sonja (2025) → Red.Sonja.2025.720p.BluRay.Pahe._www.TalaFilm.Top.vtt
 [2026-07-09T22:50:42] [sub]   + Stone Cold Fox (2025) → Stone.Cold.Fox.2025.720p.WEBRip._www.TalaFilm.Top.vtt
 [2026-07-09T22:50:42] [sub]   + Milarepa (2024) → Milarepa.2025.720p.WEB-DL.x264._www.TalaFilm.Top.vtt
+[2026-07-12T14:28:58] [rio] ============================================================
+[2026-07-12T14:28:58] [rio] Rio.ggusers.com Integration — Starting
+[2026-07-12T14:28:58] [rio] ============================================================
+[2026-07-12T14:28:59] [rio] Catalog: 27781 films
+[2026-07-12T14:28:59] [rio] Rio series: 731
+[2026-07-12T14:28:59] [rio] Rio total files: 28652
+[2026-07-12T14:30:03] [rio] Matched to existing: 662
+[2026-07-12T14:30:03] [rio] New entries: 69
+[2026-07-12T14:30:03] [rio] Total links added: 28652
+[2026-07-12T14:30:03] [rio] Catalog now: 27850 films
+[2026-07-12T14:30:03] [rio] Saved: C:\Users\parsavisions\Desktop\Projects\download-links\pwa_project\pipeline\..\catalog.json
+[2026-07-12T14:30:03] [rio] ============================================================
+[2026-07-12T14:39:14] [netflix] ============================================================
+[2026-07-12T14:39:14] [netflix] Netflix Catalog Matcher — Starting
+[2026-07-12T14:39:14] [netflix] ============================================================
+[2026-07-12T14:39:14] [netflix] Netflix titles: 8807
+[2026-07-12T14:39:15] [netflix] Catalog: 27850 films
+[2026-07-12T14:39:21] [netflix] Exact matches: 2332
+[2026-07-12T14:39:21] [netflix] Fuzzy matches: 1155
+[2026-07-12T14:39:21] [netflix] Total matched: 3487
+[2026-07-12T14:39:21] [netflix] Metadata enriched: 3031
+[2026-07-12T14:39:21] [netflix] Unmatched (new entries): 5320
+[2026-07-12T14:39:21] [netflix] Catalog now: 33170 films
+[2026-07-12T14:39:22] [netflix] Saved: C:\Users\parsavisions\Desktop\Projects\download-links\pwa_project\pipeline\..\catalog.json
+[2026-07-12T14:39:22] [netflix] ============================================================
+[2026-07-12T14:40:25] [omdb] ============================================================
+[2026-07-12T14:40:25] [omdb] OMDB Enricher — Starting
+[2026-07-12T14:40:25] [omdb] ============================================================
+[2026-07-12T14:40:25] [omdb] Catalog: 33170 films
+[2026-07-12T14:40:25] [omdb] Need enrichment: 32545
+[2026-07-12T14:40:32] [omdb]   Failed after 3 attempts for 'Banduan': HTTP Error 401: Unauthorized
+[2026-07-12T14:40:40] [omdb]   Failed after 3 attempts for 'Love Barista': HTTP Error 401: Unauthorized
+[2026-07-12T14:40:47] [omdb]   Failed after 3 attempts for 'Mrithyunjay': HTTP Error 401: Unauthorized
+[2026-07-12T14:40:54] [omdb]   Failed after 3 attempts for 'Thalaivar Thambi Thalaimaiyil': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:02] [omdb]   Failed after 3 attempts for 'Salmokji: Whispering Water': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:10] [omdb]   Failed after 3 attempts for 'The Demon Disorder': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:17] [omdb]   Failed after 3 attempts for 'Bakudan': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:23] [omdb]   Failed after 3 attempts for 'Remarkably Bright Creatures': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:30] [omdb]   Failed after 3 attempts for 'The Last Whale Singer': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:37] [omdb]   Failed after 3 attempts for 'Hokum': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:44] [omdb]   Failed after 3 attempts for 'Iron Lung': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:51] [omdb]   Failed after 3 attempts for 'Finding Harry: The Craft Behind the Magic': HTTP Error 401: Unauthorized
+[2026-07-12T14:41:58] [omdb]   Failed after 3 attempts for 'Kaamelott: The Second Chapter ': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:05] [omdb]   Failed after 3 attempts for 'Last Train to Fortune': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:12] [omdb]   Failed after 3 attempts for 'Son Of': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:19] [omdb]   Failed after 3 attempts for 'Cheekatilo': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:26] [omdb]   Failed after 3 attempts for 'Biker': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:33] [omdb]   Failed after 3 attempts for 'The President’s Cake': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:40] [omdb]   Failed after 3 attempts for 'Kartavya': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:47] [omdb]   Failed after 3 attempts for 'Refuge': HTTP Error 401: Unauthorized
+[2026-07-12T14:42:54] [omdb]   Failed after 3 attempts for 'The Magic Faraway Tree': HTTP Error 401: Unauthorized
+[2026-07-12T14:43:01] [omdb]   Failed after 3 attempts for 'Tokyo Taxi ': HTTP Error 401: Unauthorized
+[2026-07-12T14:43:08] [omdb]   Failed after 3 attempts for 'The Gates': HTTP Error 401: Unauthorized
+[2026-07-12T14:43:15] [omdb]   Failed after 3 attempts for 'You, Me & Tuscany': HTTP Error 401: Unauthorized
+[2026-07-12T14:43:22] [omdb]   Failed after 3 attempts for 'Beast ': HTTP Error 401: Unauthorized
+[2026-07-12T14:44:40] [giftmond] ============================================================
+[2026-07-12T14:44:40] [giftmond] Giftmond.ir Integration — Starting
+[2026-07-12T14:44:40] [giftmond] ============================================================
+[2026-07-12T14:44:40] [giftmond] Catalog: 33170 films
+[2026-07-12T14:44:40] [giftmond] Giftmond entries: 306
+[2026-07-12T14:44:40] [giftmond] Matched: 228, New: 78, Links added: 1168
+[2026-07-12T14:44:40] [giftmond] Catalog now: 33248 films
+[2026-07-12T14:44:41] [giftmond] Saved: C:\Users\parsavisions\Desktop\Projects\download-links\pwa_project\pipeline\..\catalog.json
+[2026-07-12T14:44:41] [giftmond] ============================================================
+[2026-07-12T14:44:53] [berlin] ============================================================
+[2026-07-12T14:44:53] [berlin] Berlin Archive Integration — Starting
+[2026-07-12T14:44:53] [berlin] ============================================================
+[2026-07-12T14:44:53] [berlin] Catalog: 33248 films
+[2026-07-12T14:44:53] [berlin] Parsed 5940 filenames
+[2026-07-12T14:44:53] [berlin] Matched: 626, New: 2031
+[2026-07-12T14:44:53] [berlin] Catalog now: 35279 films
+[2026-07-12T14:44:54] [berlin] Saved: C:\Users\parsavisions\Desktop\Projects\download-links\pwa_project\pipeline\..\catalog.json
+[2026-07-12T14:44:54] [berlin] ============================================================

@@ -1,103 +1,162 @@
 #!/usr/bin/env python3
 """
-FilmVault Poster Enhancer
-Scrapes OMDB free API for films missing posters.
-Runs after scraper.py — only processes films without posters.
-1000 free OMDB requests/day is plenty for incremental updates.
+FilmVault OMDB Enricher
+Batch-enriches catalog entries with posters, ratings, genres from OMDB API.
+Tracks progress for resume across runs. Processes 500 films per run.
 """
-
 import json
 import os
 import re
 import sys
+import io
 import time
 import urllib.request
 import urllib.parse
+from datetime import datetime
 
-CATALOG_PATH = os.path.join(os.path.dirname(__file__), "..", "catalog.json")
-OMDB_KEY = os.environ.get("OMDB_KEY", "b0a0c7e0")  # Free OMDB key
-BATCH_SIZE = 50  # Process 50 per run to stay under rate limits
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
+BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
+CATALOG_PATH = os.path.join(BASE_DIR, "catalog.json")
+LOG_PATH = os.path.join(BASE_DIR, "pipeline.log")
+STATE_PATH = os.path.join(BASE_DIR, "pipeline_state.json")
+OMDB_KEY = os.environ.get("OMDB_KEY", "b0a0c7e0")
+BATCH_SIZE = 500
 
 
 def log(msg):
-    print(f"[poster] {msg}")
+    line = f"[{datetime.now().isoformat(timespec='seconds')}] [omdb] {msg}"
+    print(line, flush=True)
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
 
 
-def fetch_omdb(title, year):
-    """Fetch movie data from OMDB API."""
-    params = urllib.parse.urlencode({
-        "t": title,
-        "y": year,
-        "apikey": OMDB_KEY,
-    })
+def fetch_omdb(title, year, retries=3):
+    params = urllib.parse.urlencode({"t": title, "y": year, "apikey": OMDB_KEY})
     url = f"http://www.omdbapi.com/?{params}"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "FilmVault/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            if data.get("Response") == "True":
-                return data
-    except Exception as e:
-        log(f"  OMDB error for '{title}': {e}")
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "FilmVault/2.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                if data.get("Response") == "True":
+                    return data
+                if data.get("Error") == "Too many results.":
+                    return None
+                if "not found" in data.get("Error", "").lower():
+                    return None
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            if attempt < retries - 1:
+                time.sleep(2 ** (attempt + 1))
+            else:
+                log(f"  Failed after {retries} attempts for '{title}': {e}")
     return None
 
 
+def needs_enrichment(film):
+    """Check if film needs any OMDB data."""
+    return (
+        not film.get("poster")
+        or not film.get("rating")
+        or not film.get("genre")
+    )
+
+
 def main():
-    if not os.path.exists(CATALOG_PATH):
-        log("No catalog found.")
-        return
+    log("=" * 60)
+    log("OMDB Enricher — Starting")
+    log("=" * 60)
 
     with open(CATALOG_PATH, "r", encoding="utf-8") as f:
         catalog = json.load(f)
-
     log(f"Catalog: {len(catalog)} films")
 
-    # Find films without posters
-    no_poster = [
+    # Find films needing enrichment
+    candidates = [
         i for i, film in enumerate(catalog)
-        if not film.get("poster") and film.get("year")
+        if film.get("year") and needs_enrichment(film)
     ]
-    log(f"Films missing posters: {len(no_poster)}")
+    log(f"Need enrichment: {len(candidates)}")
 
-    if not no_poster:
-        log("All films have posters. Done.")
+    if not candidates:
+        log("Nothing to enrich. Done.")
         return
 
-    # Process up to BATCH_SIZE
     updated = 0
-    for idx in no_poster[:BATCH_SIZE]:
+    queried = 0
+    for idx in candidates[:BATCH_SIZE]:
         film = catalog[idx]
         title = film["title"]
         year = film["year"]
 
         data = fetch_omdb(title, year)
+        queried += 1
+
         if data:
+            changed = False
+
+            # Poster
             poster = data.get("Poster", "")
-            if poster and poster != "N/A":
+            if poster and poster != "N/A" and not film.get("poster"):
                 film["poster"] = poster
+                changed = True
+
+            # Rating
+            rating = data.get("imdbRating", "")
+            if rating and rating != "N/A" and not film.get("rating"):
+                film["rating"] = rating
+                changed = True
+
+            # Genre
+            genre = data.get("Genre", "")
+            if genre and genre != "N/A" and not film.get("genre"):
+                film["genre"] = genre
+                changed = True
+
+            # Director
+            director = data.get("Director", "")
+            if director and director != "N/A" and not film.get("director"):
+                film["director"] = director
+                changed = True
+
+            # Description
+            plot = data.get("Plot", "")
+            if plot and plot != "N/A" and not film.get("description"):
+                film["description"] = plot
+                changed = True
+
+            if changed:
                 updated += 1
-                log(f"  + Poster: {title} ({year})")
 
-            # Also enrich rating if missing
-            if not film.get("rating") and data.get("imdbRating"):
-                rating = data["imdbRating"]
-                if rating != "N/A":
-                    film["rating"] = rating
+        if queried % 100 == 0:
+            log(f"  Progress: {queried}/{min(len(candidates), BATCH_SIZE)} queried, {updated} updated")
 
-            # Enrich genre if missing
-            if not film.get("genre") and data.get("Genre"):
-                film["genre"] = data["Genre"]
+        time.sleep(0.12)
 
-        time.sleep(0.15)  # Stay under 10 req/sec OMDB limit
-
+    # Save
     if updated > 0:
         tmp = CATALOG_PATH + ".tmp"
         with open(tmp, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
         os.replace(tmp, CATALOG_PATH)
-        log(f"Updated {updated} posters. Catalog saved.")
+        log(f"Updated {updated} films. Catalog saved.")
     else:
-        log("No new posters found this run.")
+        log("No updates this run.")
+
+    # State
+    state = {}
+    if os.path.exists(STATE_PATH):
+        with open(STATE_PATH, "r", encoding="utf-8") as f:
+            state = json.load(f)
+    state["omdb_last_run"] = datetime.now().isoformat()
+    state["omdb_updated"] = updated
+    state["omdb_queried"] = queried
+    tmp2 = STATE_PATH + ".tmp"
+    with open(tmp2, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+    os.replace(tmp2, STATE_PATH)
+
+    log("=" * 60)
 
 
 if __name__ == "__main__":
