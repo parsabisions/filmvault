@@ -91,6 +91,9 @@ async function init() {
   if (!searchQuery && currentFilter === 'all' && !currentGenre && !currentYear && !currentSource) {
     showStats();
   }
+  // Update footer count
+  var fc = document.getElementById('footer-count');
+  if (fc) fc.textContent = filtered.length.toLocaleString() + ' films';
   loader.classList.add('hidden');
   app.classList.remove('is-hidden');
   setupObserver();
@@ -372,6 +375,10 @@ function openDetail(idx) {
   if (film.year) metaParts.push('<span>' + escHtml(film.year) + '</span>');
   if (film.rating) metaParts.push('<span>★ ' + escHtml(film.rating) + '</span>');
   if (film.genre) metaParts.push('<span>' + escHtml(film.genre) + '</span>');
+  if (film.source) {
+    var srcClass = SOURCE_CLASSES[film.source] || 'source-default';
+    metaParts.push('<span class="source-tag ' + srcClass + '">' + escHtml(film.source) + '</span>');
+  }
   metaParts.push('<span class="' + (film.available ? 'status-ok' : 'status-err') + '">' + (film.available ? 'Available' : 'Missing') + '</span>');
 
   const isFav = favorites.has(key);
@@ -379,11 +386,20 @@ function openDetail(idx) {
     ? '<button class="watch-btn" data-play="' + idx + '"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg> Watch</button>'
     : '';
 
+  // Description with truncation
+  var descHtml = '';
+  if (film.description) {
+    var descText = escHtml(film.description);
+    var needsTrunc = film.description.length > 160;
+    descHtml = '<p class="panel-desc' + (needsTrunc ? ' is-truncated' : '') + '" id="panel-desc">' + descText + '</p>';
+    if (needsTrunc) descHtml += '<button class="panel-desc-toggle" id="desc-toggle">Show more</button>';
+  }
+
   $('#panel-content').innerHTML =
-    '<div class="panel-top"><button class="panel-edit" data-edit="' + idx + '">Edit</button><button class="panel-close" aria-label="Close detail"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>' +
+    '<div class="panel-top"><span class="panel-top-title">' + escHtml(film.title) + '</span><button class="panel-edit" data-edit="' + idx + '">Edit</button><button class="panel-close" aria-label="Close detail"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>' +
     '<div class="panel-poster" style="background:' + bg + '">' + posterDetail + '</div>' +
     '<div class="panel-body"><h2 class="panel-title">' + escHtml(film.title) + '</h2>' +
-    '<div class="panel-meta">' + metaParts.join('') + '</div>' + watchHtml +
+    '<div class="panel-meta">' + metaParts.join('') + '</div>' + descHtml + watchHtml +
     '<div class="panel-dl"><h3>Downloads</h3>' + downloadsHtml + subsHtml + '</div>' +
     '<button class="fav-btn' + (isFav ? ' is-active' : '') + '" data-key="' + escHtml(key) + '">' +
     '<svg viewBox="0 0 24 24" width="16" height="16" fill="' + (isFav ? 'currentColor' : 'none') +
@@ -402,6 +418,16 @@ function openDetail(idx) {
   overlay.setAttribute('aria-hidden', 'false');
   panel.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+
+  // Description toggle
+  var descToggle = document.getElementById('desc-toggle');
+  var descEl = document.getElementById('panel-desc');
+  if (descToggle && descEl) {
+    descToggle.addEventListener('click', function() {
+      var expanded = descEl.classList.toggle('is-truncated');
+      descToggle.textContent = expanded ? 'Show more' : 'Show less';
+    });
+  }
 }
 
 function closeDetail() {
@@ -532,6 +558,23 @@ function showStats() {
   const recent = data.slice(-10).reverse();
   const scopeLabel = data.length === allFilms.length ? '' : '<div class="stats-sub" style="margin-top:4px;color:var(--accent)">Stats for ' + data.length.toLocaleString() + ' of ' + allFilms.length.toLocaleString() + ' films</div>';
 
+  // By source
+  const sources = {};
+  data.forEach(f => { var s = f.source || ''; sources[s] = (sources[s] || 0) + 1; });
+  const sourceEntries = Object.entries(sources).sort((a, b) => b[1] - a[1]);
+  const maxSource = sourceEntries.length ? sourceEntries[0][1] : 1;
+
+  // Link health
+  const linkHealth = { '1 link': 0, '2–3 links': 0, '4+ links': 0, 'No links': 0 };
+  data.forEach(f => {
+    var c = (f.links || []).length;
+    if (c === 0) linkHealth['No links']++;
+    else if (c === 1) linkHealth['1 link']++;
+    else if (c <= 3) linkHealth['2–3 links']++;
+    else linkHealth['4+ links']++;
+  });
+  const maxLink = Math.max(...Object.values(linkHealth), 1);
+
   statsContent.innerHTML =
     '<div class="stats-card">' +
       '<div class="stats-card-title">Overview</div>' +
@@ -564,11 +607,19 @@ function showStats() {
         ).join('') +
       '</ul>' +
     '</div>' +
-    '<div class="stats-card" style="grid-column: span 2">' +
-      '<div class="stats-card-title">Recently Added</div>' +
+    '<div class="stats-card">' +
+      '<div class="stats-card-title">By Source</div>' +
       '<ul class="stats-bar-list">' +
-        recent.map(f =>
-          '<li class="stats-bar-item"><span class="stats-bar-label">' + escHtml(f.title.substring(0, 30)) + (f.title.length > 30 ? '…' : '') + '</span><span class="stats-bar-count">' + escHtml(f.year || '—') + '</span></li>'
+        sourceEntries.map(([s, c]) =>
+          '<li class="stats-bar-item"><span class="stats-bar-label">' + escHtml(s || 'TalaFilm') + '</span><div class="stats-bar-track"><div class="stats-bar-fill" style="width:' + Math.round(c / maxSource * 100) + '%"></div></div><span class="stats-bar-count">' + c.toLocaleString() + '</span></li>'
+        ).join('') +
+      '</ul>' +
+    '</div>' +
+    '<div class="stats-card">' +
+      '<div class="stats-card-title">Link Health</div>' +
+      '<ul class="stats-bar-list">' +
+        Object.entries(linkHealth).map(([label, c]) =>
+          '<li class="stats-bar-item"><span class="stats-bar-label">' + label + '</span><div class="stats-bar-track"><div class="stats-bar-fill" style="width:' + Math.round(c / maxLink * 100) + '%"></div></div><span class="stats-bar-count">' + c.toLocaleString() + '</span></li>'
         ).join('') +
       '</ul>' +
     '</div>';
@@ -850,6 +901,62 @@ function setupFilterSheet() {
     if (sel) sel.addEventListener('change', syncToMain);
   });
 }
+
+// ── Back to top ───────────────────────────────────────
+var backToTop = document.getElementById('back-to-top');
+if (backToTop) {
+  window.addEventListener('scroll', function() {
+    backToTop.classList.toggle('is-visible', window.scrollY > 400);
+  }, { passive: true });
+  backToTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+// ── Logo → scroll to top ─────────────────────────────
+var logoLink = document.getElementById('logo-link');
+if (logoLink) {
+  logoLink.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+// ── Footer count ─────────────────────────────────────
+// Updated dynamically via applyFilters patch
+
+// ── Filter badge ─────────────────────────────────────
+function updateFilterBadge() {
+  var count = 0;
+  if (currentSource) count++;
+  if (currentGenre) count++;
+  if (currentYear) count++;
+  var trigger = document.getElementById('filter-sheet-trigger');
+  if (!trigger) return;
+  var existing = trigger.querySelector('.filter-badge');
+  if (count > 0) {
+    if (!existing) {
+      var badge = document.createElement('span');
+      badge.className = 'filter-badge';
+      badge.textContent = count;
+      trigger.appendChild(badge);
+    } else {
+      existing.textContent = count;
+    }
+  } else if (existing) {
+    existing.remove();
+  }
+}
+
+// Patch applyFilters to update badge
+var _origApplyFilters = applyFilters;
+applyFilters = function() {
+  _origApplyFilters();
+  updateFilterBadge();
+  // Update footer count
+  var fc = document.getElementById('footer-count');
+  if (fc) fc.textContent = filtered.length.toLocaleString() + ' films';
+};
 
 // ── Service Worker ────────────────────────────────────
 if ('serviceWorker' in navigator) {

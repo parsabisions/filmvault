@@ -38,7 +38,7 @@
     <header class="topbar">
       <div class="topbar-inner">
         <h1 class="logo" aria-label="FilmVault home">
-          <a href="/" class="logo">Film<span class="logo-accent">Vault</span></a>
+          <a href="#" class="logo" id="logo-link">Film<span class="logo-accent">Vault</span></a>
         </h1>
 
         <div class="search-wrap" role="search">
@@ -112,7 +112,14 @@
         <p class="empty-title" id="empty-title">No films found</p>
         <p class="empty-sub" id="empty-sub">Try adjusting your filters or search</p>
       </div>
+      <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+      </button>
     </main>
+
+    <footer class="footer">
+      <span id="footer-count">35,279 films</span> · FilmVault
+    </footer>
 
     <!-- Detail panel -->
     <div id="overlay" class="overlay" aria-hidden="true"></div>
